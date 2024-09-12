@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="flex justify-between items-center text-white py-6 px-5  bg-green-300/35   relative ">
+    <nav className="flex justify-between items-center text-white py-6 px-5  bg-green-300/35  border-b-white border-b relative ">
       <div className="flex justify-between items-center text-white px-10 ">
       <div>
         <img className="h-10" src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726142267/Bitcoin/capx-logo-180x55-1_edgd0i.png" alt="" />

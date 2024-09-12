@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "bitcoin": 'url("https://res.cloudinary.com/dtlejpoxq/image/upload/v1726141835/Bitcoin/395457_cxugts.png")'
+        "bitcoin": 'url("https://res.cloudinary.com/dtlejpoxq/image/upload/v1726141835/Bitcoin/395457_cxugts.png")',
+        "bitcoin2": 'url("https://res.cloudinary.com/dtlejpoxq/image/upload/v1726141833/Bitcoin/3812603_xajlsp.jpg")',
+        "bitcoin3": 'url("https://res.cloudinary.com/dtlejpoxq/image/upload/v1726141833/Bitcoin/ai-generated-8602781_1280_osh0uu.jpg")',
+
+
       }
     },
   },

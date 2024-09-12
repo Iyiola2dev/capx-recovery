@@ -10,7 +10,7 @@ import Contact from './pages/Contact'
 
 const App = () => {
   return (
-    <div className='bg-bitcoin bg-transparent'>
+    <div className='bg-bitcoin2 bg-transparent'>
     
     <Nav/>
     <Routes>
