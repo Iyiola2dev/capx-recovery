@@ -1,3 +1,5 @@
+import { image } from "framer-motion/client"
+
 export const specialData = [
     {
         id: 1,
@@ -114,4 +116,47 @@ export const service = [
 
     },
   
+]
+
+export const achievement = [
+    {
+        id: 1,
+        text: "10+ Years of Recovery"
+    },
+    {
+        id: 2,
+        text: "Millions Recovered"
+    },
+    {
+        id: 3,
+        text: " 1000+ Successful Cases"
+    },
+    {
+        id: 4,
+        text: "95% Success Rate"
+    },
+]
+
+export const miniBlog = [
+    {
+        id: 1,
+        image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726268958/Bitcoin/Decentralized-Finance-DeFi-Scams_btkbfu.webp",
+        title: "Decentralized Finance (DeFi) Scams: A 2024 Guide to Safety",
+        dataText: "September 10, 2024 ",
+        text: "Introduction Decentralized Finance, or DeFi, is rapidly transforming the finance sector by enabling people to manage their money directly with others, bypassing traditional banks. This new method empowers users with…"
+    },
+    {
+        id: 2,
+        image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726268958/Bitcoin/how-capx-recover-funds-from-unreliable-brokers_fygy6u.webp",
+        dataText: "August 28, 2024 ",
+        text: "In the intricate world of online trading, facing unreliable brokers can lead to significant financial setbacks. Capx Recovery is committed to helping clients who have been deceived by such brokers,…"
+    },
+    {
+        id: 3,
+        title: "Romance Scams: What You Need to Know",
+        image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726268958/Bitcoin/how-capx-recovery-help-you-recover-from-financial-losses_kgzq83.webp",
+        dataText: "August 13, 2024 ",
+        text: "In the digital age, social media scams are becoming increasingly common, posing significant threats to your financial well-being. Capx Recovery specializes in detecting and addressing these scams, ensuring your assets…"
+    },
+    
 ]

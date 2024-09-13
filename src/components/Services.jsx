@@ -17,11 +17,11 @@ const Services = () => {
         <h1 className="text-2xl font-bold text-center">
           Specialized Services by Our Experts
         </h1>
-        <div className="flex flex-col lg:hidden gap-5 justify-center items-center py-7">
+        <div className="flex flex-col lg:hidden gap-10 justify-center items-center py-7">
           {service.map((data) => (
             <div
               key={data.id}
-              className="flex flex-col justify-center items-center gap-4 text-white "
+              className="flex flex-col justify-center items-center gap-6 text-white "
             >
               <div className="h-[250px] w-[250px] object-center">
                 <img
@@ -40,8 +40,8 @@ const Services = () => {
           ))}
         </div>
         <div className="hidden lg:flex">
-          <div className="flex gap-3">
-            <ul className="flex-1 flex flex-col  justify-between  p-3">
+          <div className="flex gap-0">
+            <ul className="flex-1 flex flex-col  justify-between border-l rounded-xl  p-3">
               <li
                 className={`${
                   activeTab === 0 ? "  bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
@@ -76,7 +76,7 @@ const Services = () => {
               </li>
               <li
                 className={`${
-                  activeTab === 4 ? " bg-white py-3 px-1 font-bold text-base  text-blue-900rounded" : " border-b-2 py-3 font-bold text-base  "
+                  activeTab === 4 ? " bg-white py-3 px-1 font-bold text-base  text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
                 onClick={() => handleTabClick(4)}
               >
@@ -100,19 +100,19 @@ const Services = () => {
               </li>
               <li
                 className={`${
-                  activeTab === 7 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
+                  activeTab === 7 ? " bg-white py-3 px-[0.2] font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
                 onClick={() => handleTabClick(7)}
               >
                 Social Media Scam Recovery
               </li>
             </ul>
-            <div className="flex-[3] flex bg-white  p-3">
+            <div className="flex-[3] flex bg-white rounded-xl gap-2  p-3">
               <div className="flex flex-col gap-5">
                 <h2 className="text-blue-900 text-2xl font-semibold">{currentServices.title}</h2>
                 <p className="text-black">{currentServices.text}</p>
               </div>
-              <img className="h-[30rem]" src={currentServices.image} alt="" />
+              <img className="h-[30rem] rounded-xl " src={currentServices.image} alt="" />
             </div>
           </div>
         </div>

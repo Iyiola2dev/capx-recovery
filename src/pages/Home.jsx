@@ -3,6 +3,8 @@ import Form from "../components/Form";
 import { specialData } from "../../data";
 import Recovery from "../components/Recovery";
 import Services from "../components/Services";
+import ConnectUs from "../components/ConnectUs";
+import Achievement from "../components/Achievement";
 
 const Home = () => {
   return (
@@ -36,33 +38,80 @@ const Home = () => {
       {/* What you get section */}
       <div className="  bg-bitcoin3 bg-cover bg-transparent rounded-2xl  mt-7">
         <div className="flex flex-col justify-center items-center rounded-2xl py-10 bg-green-300/35 gap-5">
-        <p className="text-white text-4xl font-bold">What You Get</p>
-        <div className="flex flex-wrap justify-center gap-6 lg:gap-[4rem] ">
-          {specialData.map((data) => (
-            <div
-              key={data.id}
-              className="flex flex-col justify-center items-center"
-            >
-              <div className="flex flex-col justify-center items-center bg-blue-900 w-[200px] h-[200px] rounded-2xl gap-1">
-                <div className="h-[4rem] w-[3.5rem]">
-                  <img src={data.image} alt="" />
+          <p className="text-white text-4xl font-bold">What You Get</p>
+          <div className="flex flex-wrap justify-center gap-6 lg:gap-[4rem] ">
+            {specialData.map((data) => (
+              <div
+                key={data.id}
+                className="flex flex-col justify-center items-center"
+              >
+                <div className="flex flex-col justify-center items-center bg-blue-900 w-[200px] h-[200px] rounded-2xl gap-1">
+                  <div className="h-[4rem] w-[3.5rem]">
+                    <img src={data.image} alt="" />
+                  </div>
+                  <div className="w-[150px] text-center text-[#ffdb8a] font-semibold text-lg">
+                    {data.title}
+                  </div>
                 </div>
-                <div className="w-[150px] text-center text-[#ffdb8a] font-semibold text-lg">{data.title}</div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-        </div>
-       
       </div>
 
       {/* Recovery section */}
       <div>
-        <Recovery/>
+        <Recovery />
       </div>
       <div>
-        <Services/>
+        <Services />
       </div>
+
+      {/* little info about us */}
+      <div className="flex flex-col justify-center mt-10 ">
+        <h1 className="text-3xl text-center font-bold text-[#ffdb8a]">
+          Assuring Scam-Relief With Recovery
+        </h1>
+        <div className="flex flex-col lg:flex-row py-3 justify-center items-center gap-4">
+          <div className="flex flex-col gap-3 items-center lg:items-start lg:flex-1">
+            <div className="flex flex-col gap-2 text-center lg:text-left">
+              <p className="  text-lg font-bold text-white">
+                At Capx Recovery, we’re at the forefront of advanced scam
+                tracing methodologies, whether it’s blockchain-based crypto
+                transactions or difficult investigations, we ensure optimal
+                results. With thousands having trusted our process, our scam
+                recovery services have empowered them with regained funds and
+                confidence.
+              </p>
+              <p className="  text-lg font-bold text-white">
+                For victims dealing with the brunt of a fraud, our free
+                consultation sessions can answer all of your doubts and begin a
+                promising journey into regaining your money. With specialties
+                like a tech-savvy approach to investigations, legal guidance,
+                cyber fund tracing, and assured maximum recovery; we’re reliably
+                experienced in this sector. Leaning on our expertise would only
+                mean one thing: the best of recovery results.
+              </p>
+            </div>
+
+            <button className="rounded-3xl py-3 px-6 bg-[#ffdb8a]">
+              More About Us
+            </button>
+          </div>
+          <div className="mx-auto hidden lg:flex lg:flex-1 h-[30rem]">
+            <img
+              className="rounded"
+              src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726141835/Bitcoin/ai-generated-8517436_1920_roz91u.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* {} */}
+      <ConnectUs/>
+      <Achievement/>
+      
     </div>
   );
 };
