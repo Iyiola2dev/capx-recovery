@@ -41,10 +41,10 @@ const Services = () => {
         </div>
         <div className="hidden lg:flex">
           <div className="flex gap-3">
-            <ul className="flex-1 flex flex-col  justify-between bg-red-500">
+            <ul className="flex-1 flex flex-col  justify-between  p-3">
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 0 ? "  bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
                 onClick={() => handleTabClick(0)}
               >
@@ -52,7 +52,7 @@ const Services = () => {
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 1 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
                 onClick={() => handleTabClick(1)}
               >
@@ -60,7 +60,7 @@ const Services = () => {
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 2 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
                 onClick={() => handleTabClick(2)}
               >
@@ -68,51 +68,51 @@ const Services = () => {
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 3 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
-                onClick={() => handleTabClick(0)}
+                onClick={() => handleTabClick(3)}
               >
                 Ponzi Scheme Recovery
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 4 ? " bg-white py-3 px-1 font-bold text-base  text-blue-900rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
-                onClick={() => handleTabClick(3)}
+                onClick={() => handleTabClick(4)}
               >
                 Romance Scam Recovery
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 5 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
-                onClick={() => handleTabClick(4)}
+                onClick={() => handleTabClick(5)}
               >
                 Tax Fraud Investigation
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 6 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
-                onClick={() => handleTabClick(5)}
+                onClick={() => handleTabClick(6)}
               >
                 Online Scam Recovery
               </li>
               <li
                 className={`${
-                  activeTab === 0 ? "border-b-2 border-white" : ""
+                  activeTab === 7 ? " bg-white py-3 px-1 font-bold text-base text-blue-900 rounded" : " border-b-2 py-3 font-bold text-base  "
                 } cursor-pointer`}
-                onClick={() => handleTabClick(6)}
+                onClick={() => handleTabClick(7)}
               >
                 Social Media Scam Recovery
               </li>
             </ul>
-            <div className="flex-[3] flex bg-red-500 p-3">
-              <div>
-                <h2>{currentServices.title}</h2>
-                <p>{currentServices.text}</p>
+            <div className="flex-[3] flex bg-white  p-3">
+              <div className="flex flex-col gap-5">
+                <h2 className="text-blue-900 text-2xl font-semibold">{currentServices.title}</h2>
+                <p className="text-black">{currentServices.text}</p>
               </div>
-              <img className="h-[30rem]" src={currentServices.image}alt="" />
+              <img className="h-[30rem]" src={currentServices.image} alt="" />
             </div>
           </div>
         </div>
