@@ -10,13 +10,15 @@ const Form = () => {
     fetch("https://restcountries.com/v3.1/all")
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
+
         const countryNames = data.map((country) => country.name.common);
         const sortedCountries = countryNames.sort(); // Sort alphabetically
         setCountries(sortedCountries);
       })
       .catch((error) => console.error("Error fetching countries:", error));
   }, []);
-
+ 
   // Handle country selection from the dropdown
   const handleSelectCountry = (country) => {
     setSelectedCountry(country);
@@ -34,13 +36,13 @@ const Form = () => {
         <h2 className="text-2xl font-bold text-[#ffdb8a]">
           Reclaim Your Scammed Money
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2  gap-3 w-full h-full py-4">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-3 w-full h-full py-4">
           {/* First Name Input */}
           <div className="flex flex-col gap-1">
             <label className="text-white font-semibold text-xl" htmlFor="firstName">
               First Name
             </label>
-            <input className="p-1 rounded" type="text" />
+            <input className="p-1 rounded" type="text" required/>
           </div>
 
           {/* Last Name Input */}
@@ -48,7 +50,7 @@ const Form = () => {
             <label className="text-white font-semibold text-xl" htmlFor="lastName">
               Last Name
             </label>
-            <input className="p-1 rounded" type="text" />
+            <input className="p-1 rounded" type="text" required/>
           </div>
 
           {/* Email Input */}
@@ -56,7 +58,7 @@ const Form = () => {
             <label className="text-white font-semibold text-xl" htmlFor="email">
               Email
             </label>
-            <input className="p-1 rounded" type="email" />
+            <input className="p-1 rounded" type="email" required/>
           </div>
 
           {/* Mobile Number Input */}
@@ -64,7 +66,7 @@ const Form = () => {
             <label className="text-white font-semibold text-xl" htmlFor="number">
               Mobile Number
             </label>
-            <input className="p-1 rounded" type="number" />
+            <input className="p-1 rounded" type="number" required/>
           </div>
 
           {/* Country Dropdown */}
@@ -99,16 +101,16 @@ const Form = () => {
             <label className="text-white font-semibold text-xl" htmlFor="scamType">
               Scam Type
             </label>
-            <input className="p-1 rounded" type="text" />
+            <input className="p-1 rounded" type="text" required/>
           </div>
         </div>
         <div>
             <div className="flex flex-col gap-1">
-                <label className="text-white font-semibold text-xl" htmlFor="text">The amount you invested</label>
-                <input className="p-1 rounded" type="text" name="" id="" />
+                <label className="text-white font-semibold text-lg" htmlFor="text">The amount you invested</label>
+                <input className="p-1 rounded" type="text" name="" id="" required/>
             </div>
         <div className="flex flex-col gap-1 mb-4">
-              <label htmlFor="message" className="text-white font-semibold text-xl">
+              <label htmlFor="message" className="text-white font-semibold text-lg">
                 Brief us about your case*
               </label>
               <textarea
@@ -121,6 +123,12 @@ const Form = () => {
               ></textarea>
             </div>
         </div>
+        <button
+              type="submit"
+              className="bg-[#ffdb8a] text-black py-2 px-4 rounded hover:bg-[#ffdb8a]/30"
+            >
+             Get Free Case Evaluation
+            </button>
       </form>
     </div>
   );
