@@ -5,6 +5,7 @@ import Recovery from "../components/Recovery";
 import Services from "../components/Services";
 import ConnectUs from "../components/ConnectUs";
 import Achievement from "../components/Achievement";
+import MiniBlog from "../components/MiniBlog";
 
 const Home = () => {
   return (
@@ -111,7 +112,7 @@ const Home = () => {
       {/* {} */}
       <ConnectUs/>
       <Achievement/>
-      
+      <MiniBlog/>
     </div>
   );
 };
