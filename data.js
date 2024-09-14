@@ -167,3 +167,62 @@ export const miniBlog = [
     text: "In the digital age, social media scams are becoming increasingly common, posing significant threats to your financial well-being. Capx Recovery specializes in detecting and addressing these scams, ensuring your assets…",
   },
 ];
+
+// data.js
+export const faqData = [
+  {
+    question: "Is Crypto A Good Investment?",
+    title: `Crypto assets are the latest asset class and are highly volatile. Since these assets are highly volatile, 
+             the chances of their value appreciating or depreciating more than 1000X are high. 
+             The crypto market is unregulated; thus, it is a risky market. If you lose money, your chances of recovering 
+             it depend on how quickly you act and what steps you take. Another threat is that crypto scams are quite common.`,
+  },
+  {
+    question: "How To Avoid Cryptocurrency Scams?",
+    title:
+      "Con artists are smart, and they will work on your emotions to get what they want. They will entice their victims by offering fake deals:",
+    answer1: "1. Once-in-a-lifetime opportunity",
+    answer2: "2. Exaggerated and unbelievable returns on investments",
+    answer3: "3. Get quick schemes",
+    answer4: "4. Low risk and high returns on investments.",
+    answer5: "5. Their firm is so expert at picking cryptos at the perfect time that they rarely have any losses.",
+    answer6: "6. Ponzi schemes are common in crypto scams.",
+  },
+  {
+    question: "How To Spot A Cryptocurrency Scammer?",
+    title:
+      "Remember that scammers seek you out to make quick money. All scammers follow the following strategies to entice their victims:",
+    answer1: "1. Offering unrealistic returns on investment",
+    answer2: "2. Instilling fear and greed in your mind",
+    answer3: "3. A small window of opportunity to make a substantial amount of money",
+    answer4: "4. Employing high-pressure sales strategies",
+    answer5: "5. Using coercive language to convince you",
+    answer6: "6. They show a remarkable need to close the deal as quickly as possible.",
+    answer7: "7. They will also prompt you to apply for loans to invest in these bogus schemes.",
+  },
+  {
+    question:
+      "How can I Be Sure That I am Dealing With A Trusted Crypto Broker?",
+    title:
+      "While selecting a genuine and reputed broker, here are a few things that you need to research to avoid falling prey to an online cryptocurrency scam",
+    answer1: "1. They have their license and registration from a government agency or a reputed and trusted private entity.",
+    answer2: "2. Check if these certificates are valid.",
+    answer3: "3. These certificates should be mentioned on their website.",
+    answer4: "4. They must not be under any litigation.",
+    answer5: "5. They must not be blacklisted.",
+    answer6: "6. Check their reviews; it will help you understand how they operate and how their client service center helps with questions and queries.",
+  },
+  {
+    question: "What Reporting Steps To Follow If You Get Crypto Scammed?",
+    title:
+      "When you realize you have been scammed, you need to quickly take action and take precautions to minimize the losses further.",
+    answer1: "1. Refrain from interacting with the scammers any further.",
+    answer2: "2. Make a report and include all the details from the time the scammer contacted you until the time you realized that you were a victim of it.",
+    answer3: "3. Contact the police, your bank, and legal authorities to report the scammer.",
+    answer4: "4. Connect with the FBI's Internet Crime Complaint Center and also file a complaint with them.",
+    answer5: "5. Request a free annual credit report and check for any suspicious activities.",
+    answer6: "6. Contact the FTC, or Federal Trade Commission, and ask them about the scam.",
+    title2: "Alternatively, you can always rely on the online fund recovery services Capx Recovery offers. We will help you recover your lost crypto assets.",
+  },
+];
+

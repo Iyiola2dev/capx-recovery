@@ -6,6 +6,9 @@ import Services from "../components/Services";
 import ConnectUs from "../components/ConnectUs";
 import Achievement from "../components/Achievement";
 import MiniBlog from "../components/MiniBlog";
+import ClientExperience from "../components/ClientExperience";
+import Faq from "../components/Faq";
+import Reclaim from "../components/Reclaim";
 
 const Home = () => {
   return (
@@ -110,9 +113,12 @@ const Home = () => {
       </div>
 
       {/* {} */}
-      <ConnectUs/>
-      <Achievement/>
-      <MiniBlog/>
+      <ConnectUs />
+      <Achievement />
+      <MiniBlog />
+      <ClientExperience />
+      <Faq />
+      <Reclaim />
     </div>
   );
 };
