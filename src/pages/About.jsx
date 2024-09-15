@@ -58,6 +58,17 @@ const About = () => {
         <Services />
       </div>
       <CryptoCases/>
+
+      <div>
+      <div className="flex flex-col justify-center mt-10 items-center gap-5">
+      <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">Begin The Process Immediately For
+      A Greater Chance Of Asset Recovery</h1>
+      <div>
+      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300"> Report Your Case</button>
+      </div>
+     
+      </div>
+      </div>
     </div>
   );
 };

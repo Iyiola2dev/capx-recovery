@@ -102,7 +102,7 @@ const Home = () => {
               More About Us
             </button>
           </div>
-          <div className="mx-auto hidden lg:flex lg:flex-1 h-[30rem]">
+          <div className="mx-auto hidden lg:flex lg:flex-1 h-[30rem] lg:justify-end">
             <img
               className="rounded"
               src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726141835/Bitcoin/ai-generated-8517436_1920_roz91u.jpg"

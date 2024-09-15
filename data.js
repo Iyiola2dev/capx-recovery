@@ -280,3 +280,73 @@ export const strategyData = [
       "The investigation report, presented in a clear format, is vital for recovery efforts. Expert testimony from an investigator and examiner enhances the case in court, providing strong evidence and professional insights to support legal proceedings and increase the chances of recovery.",
   },
 ];
+
+
+//Services  data
+
+export const scamCompentcy = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726407033/Bitcoin/Crypto-Recovery-Process-1536x1536_nmds2d.webp",
+    title: "Crypto Scam Recovery Process",
+    text: "We have experts who use advanced software and hardware, as well as financial forensics and international legal advocacy.",
+  },
+
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726407033/Bitcoin/Analysis-and-Evaluation-1536x1536_uyx8xe.webp",
+    title: "Analysis and Evaluation",
+    text: "Our dedicated experts will carefully collect all the details of a scam and analyze the case piece by piece. They will plan the best actions to recover the lost crypto. Along with recovery services, they will help build a strong case against the scammers involved.",
+  },
+
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726407032/Bitcoin/International-Financial-Legal-Experts-1536x1536_prnlw7.webp",
+    title: "International Financial Experts",
+    text: "Respecting the legal international boundaries, our crypto scam recovery team will engage and negotiate with the third parties involved, like the crypto exchanges. With the report created by our experts, considering all the evidence and within the boundaries, we will try to maximize the recovery of lost cryptos from the scammer’s crypto wallets.",
+  },
+
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726407032/Bitcoin/Finance-Forensic-and-Cyber-Experts-1536x1536_azp7d0.webp",
+    title: "Finance Forensic and Cyber Experts",
+    text: "Our finance and cyber experts will carefully trace and track each crypto using advanced software and hardware. These tools help us find the scammer's location involved in the scam.",
+  },
+
+  {
+    id: 5,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726407033/Bitcoin/Recovery-Phase-1536x1536_mzukqi.webp",
+    title: "Recovery Phase",
+    text: "With the combined efforts of all our departments, our experts will analyze and strategize personalized approaches unique to each case. They will come together and recover the maximum number of cryptos that were stolen in the scam. Our crypto scams recovery experts are ready for any latest developments that may pose a hindrance during the recovery phase, allowing a smooth translation of cryptos from the scammer's wallet into their rightful owner's possession.",
+  },
+
+ 
+];
+
+export const scamsData = [
+  {
+    title: 'Social Media Platform Scam',
+    description: `Scammers use social media to reach more people, tricking them through platforms like Facebook, Instagram, WhatsApp, Telegram, Twitter, and Tinder. They use the trust people have in social media influencers to run scams like rug-pull and pump-and-dump schemes, profiting from their followers’ trust and money. Be careful and stay aware to protect yourself from these online scams.`,
+    linkText: 'Read More',
+  },
+  {
+    title: 'Ponzi Scheme & Pyramid Schemes',
+    description: `Scammers use Ponzi and pyramid schemes to trick people into making money for others. They promise big returns on investments but rely on new recruits to keep the scheme going. When new recruits stop coming, the scheme collapses, leaving many people financially ruined.`,
+    linkText: 'Read More',
+  },
+  {
+    title: 'Non-Fungible Tokens (NFTs)',
+    description: `NFTs are unique digital assets that have become popular recently. Scammers sell fake NFTs at high prices, tricking people into paying for worthless items. Be careful when dealing with NFTs to avoid these scams.`,
+    linkText: 'Read More',
+  },
+  {
+    title: 'Investment Scams',
+    description: `Scammers promise quick wealth, tricking people into investing large sums of money. These scams take many forms, like fake investment opportunities and fraudulent business ventures. Once trapped, victims may lose a lot of money.`,
+    linkText: 'Read More',
+  },
+];

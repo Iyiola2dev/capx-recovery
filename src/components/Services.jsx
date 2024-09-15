@@ -17,6 +17,8 @@ const Services = () => {
         <h1 className="text-2xl font-bold text-center">
           Specialized Services by Our Experts
         </h1>
+
+        {/* visible for small screen */}
         <div className="flex flex-col lg:hidden gap-10 justify-center items-center py-7">
           {service.map((data) => (
             <div
@@ -39,6 +41,9 @@ const Services = () => {
             </div>
           ))}
         </div>
+
+
+        {/* // THis is only visible on large screen */}
         <div className="hidden lg:flex">
           <div className="flex gap-0">
             <ul className="flex-1 flex flex-col  justify-between border-l rounded-xl  p-3">
