@@ -1,5 +1,7 @@
 import React from "react";
 import Services from "../components/Services";
+import StrategyData from "../components/StrategyData";
+import CryptoCases from "../components/CryptoCases";
 
 const About = () => {
   return (
@@ -21,14 +23,15 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row bg-green-300/35  py-12  rounded-2xl items-center  px-3 gap-4">
-        <div className="flex-1">
+      <div className="flex flex-col lg:flex-row bg-green-900  py-12  rounded-2xl items-center  px-3 gap-4">
+        <div className="flex-1 rounded-2xl">
           <img
+          className="rounded-2xl"
             src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726264825/Bitcoin/Our-approach_1_qke5me.webp"
             alt=""
           />
         </div>
-        <div className="flex-1 flex flex-col gap-3 ">
+        <div className="flex-1 flex flex-col gap-3 b px-2 rounded text-center lg:text-start">
           <h2 className="text-3xl font-bold text-[#ffdb8a]">Our Strategy</h2>
 
           <p className="text-lg text-white  font-bold ">
@@ -49,8 +52,12 @@ const About = () => {
         </div>
       </div>
       <div>
+        <StrategyData />
+      </div>
+      <div>
         <Services />
       </div>
+      <CryptoCases/>
     </div>
   );
 };

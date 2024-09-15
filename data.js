@@ -185,7 +185,8 @@ export const faqData = [
     answer2: "2. Exaggerated and unbelievable returns on investments",
     answer3: "3. Get quick schemes",
     answer4: "4. Low risk and high returns on investments.",
-    answer5: "5. Their firm is so expert at picking cryptos at the perfect time that they rarely have any losses.",
+    answer5:
+      "5. Their firm is so expert at picking cryptos at the perfect time that they rarely have any losses.",
     answer6: "6. Ponzi schemes are common in crypto scams.",
   },
   {
@@ -194,35 +195,88 @@ export const faqData = [
       "Remember that scammers seek you out to make quick money. All scammers follow the following strategies to entice their victims:",
     answer1: "1. Offering unrealistic returns on investment",
     answer2: "2. Instilling fear and greed in your mind",
-    answer3: "3. A small window of opportunity to make a substantial amount of money",
+    answer3:
+      "3. A small window of opportunity to make a substantial amount of money",
     answer4: "4. Employing high-pressure sales strategies",
     answer5: "5. Using coercive language to convince you",
-    answer6: "6. They show a remarkable need to close the deal as quickly as possible.",
-    answer7: "7. They will also prompt you to apply for loans to invest in these bogus schemes.",
+    answer6:
+      "6. They show a remarkable need to close the deal as quickly as possible.",
+    answer7:
+      "7. They will also prompt you to apply for loans to invest in these bogus schemes.",
   },
   {
     question:
       "How can I Be Sure That I am Dealing With A Trusted Crypto Broker?",
     title:
       "While selecting a genuine and reputed broker, here are a few things that you need to research to avoid falling prey to an online cryptocurrency scam",
-    answer1: "1. They have their license and registration from a government agency or a reputed and trusted private entity.",
+    answer1:
+      "1. They have their license and registration from a government agency or a reputed and trusted private entity.",
     answer2: "2. Check if these certificates are valid.",
     answer3: "3. These certificates should be mentioned on their website.",
     answer4: "4. They must not be under any litigation.",
     answer5: "5. They must not be blacklisted.",
-    answer6: "6. Check their reviews; it will help you understand how they operate and how their client service center helps with questions and queries.",
+    answer6:
+      "6. Check their reviews; it will help you understand how they operate and how their client service center helps with questions and queries.",
   },
   {
     question: "What Reporting Steps To Follow If You Get Crypto Scammed?",
     title:
       "When you realize you have been scammed, you need to quickly take action and take precautions to minimize the losses further.",
     answer1: "1. Refrain from interacting with the scammers any further.",
-    answer2: "2. Make a report and include all the details from the time the scammer contacted you until the time you realized that you were a victim of it.",
-    answer3: "3. Contact the police, your bank, and legal authorities to report the scammer.",
-    answer4: "4. Connect with the FBI's Internet Crime Complaint Center and also file a complaint with them.",
-    answer5: "5. Request a free annual credit report and check for any suspicious activities.",
-    answer6: "6. Contact the FTC, or Federal Trade Commission, and ask them about the scam.",
-    title2: "Alternatively, you can always rely on the online fund recovery services Capx Recovery offers. We will help you recover your lost crypto assets.",
+    answer2:
+      "2. Make a report and include all the details from the time the scammer contacted you until the time you realized that you were a victim of it.",
+    answer3:
+      "3. Contact the police, your bank, and legal authorities to report the scammer.",
+    answer4:
+      "4. Connect with the FBI's Internet Crime Complaint Center and also file a complaint with them.",
+    answer5:
+      "5. Request a free annual credit report and check for any suspicious activities.",
+    answer6:
+      "6. Contact the FTC, or Federal Trade Commission, and ask them about the scam.",
+    title2:
+      "Alternatively, you can always rely on the online fund recovery services Capx Recovery offers. We will help you recover your lost crypto assets.",
   },
 ];
 
+export const strategyData = [
+  {
+    title: "Consultation",
+    description:
+      "Before starting a cryptocurrency recovery investigation, a crypto investigator meets with the client to understand their situation. This helps us determine the necessary help and tailor the recovery plan to the client's specific needs.",
+  },
+  {
+    title: "Retainer Agreement",
+    description:
+      "A retainer agreement is carefully prepared, detailing the investigation’s scope, estimated cost, and timeline. This agreement is a formal contract between the investigator and the client, ensuring clear terms and expectations.",
+  },
+  {
+    title: "Examination",
+    description:
+      "A Certified Fraud Examiner leads the team in verifying cryptocurrency fraud evidence. For more complex cases, a Cryptocurrency Tracing Certified Examiner may be involved to provide additional expertise, ensuring a thorough and accurate investigation.",
+  },
+  {
+    title: "Identification",
+    description:
+      "Once the fraud is exposed, we identify those responsible through interviews and investigations. For online frauds, this may involve uncovering multiple layers of fake identities to trace the true culprits behind the fraudulent activities.",
+  },
+  {
+    title: "Background",
+    description:
+      "The investigation thoroughly examines the personal, professional, and financial backgrounds of the responsible parties, including any past fraud involvement. It focuses on financial pressures such as bankruptcies, liens, and other indicators.",
+  },
+  {
+    title: "Asset Discovery",
+    description:
+      "A comprehensive asset investigation identifies financial holdings to support recovery efforts. This includes uncovering cryptocurrency holdings, bank accounts, investments, and associates, ensuring all potential assets are accounted for to facilitate the recovery process.",
+  },
+  {
+    title: "Legal Action",
+    description:
+      "If responsible parties refuse to return funds, we collaborate with legal counsel or regulatory authorities to pursue legal action. This coordinated effort ensures that all findings are effectively used to hold the responsible parties accountable and facilitate the recovery of lost funds.",
+  },
+  {
+    title: "Report",
+    description:
+      "The investigation report, presented in a clear format, is vital for recovery efforts. Expert testimony from an investigator and examiner enhances the case in court, providing strong evidence and professional insights to support legal proceedings and increase the chances of recovery.",
+  },
+];

@@ -5,7 +5,7 @@ const Reclaim = () => {
   return (
     <div className='mt-10 flex flex-col justify-center items-center bg-green-300/35 py-12  rounded-2xl gap-5'>
         <h1 className='text-3xl text-[#ffdb8a] font-bold text-center'>Reclaim Your Scammed Money</h1>
-        <div className='flex flex-col-reverse md:flex-row justify-center items-center'>
+        <div className='flex flex-col-reverse md:flex-row justify-center lg:justify-between items-center'>
         <div className='flex-1'>
             <Form/>
         </div>
