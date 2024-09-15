@@ -8,7 +8,7 @@ const StrategyData = () => {
     <p className="text-center text-lg mb-5 font-semibold">
       Our approach has been successful over time and is easy to adapt to each situation.
     </p>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-center items-center ">
       {strategyData.map((item, index) => (
         <div
           key={index}

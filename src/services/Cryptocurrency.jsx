@@ -1,7 +1,9 @@
-import React from "react";
-import ScamCompentcy from "../components/ScamCompentcy";
-import ScamCard from "../components/ScamCard";
-import CryptoOperatCard from "../components/CryptoOperatCard";
+import ScamCompentcy from "./servicesComponent/ScamCompentcy";
+import ScamCard from "./servicesComponent/ScamCard";
+import CryptoOperatCard from "./servicesComponent/CryptoOperatCard";
+import SignCard from "./servicesComponent/SignCard";
+import FaqCrypto from "./servicesComponent/FaqCrypto";
+import OurServices from "./servicesComponent/OurServices";
 
 const Cryptocurrency = () => {
   return (
@@ -28,13 +30,43 @@ const Cryptocurrency = () => {
         </div>
       </div>
       <div>
-       <ScamCompentcy/>
+        <ScamCompentcy />
       </div>
       <div>
-        <ScamCard/>
+        <ScamCard />
       </div>
       <div>
-        <CryptoOperatCard/>
+        <CryptoOperatCard />
+      </div>
+      <div>
+        <SignCard />
+      </div>
+      <div className=" p-5 lg:p-10 flex flex-col gap-6 md:justify-center md:items-center">
+        <h1 className="text-3xl font-bold mb-4 text-[#ffdb8a] text-center">Act Fast and Recover What's Yours</h1>
+        <div className="flex flex-col gap-5 lg:text-xl">
+        <p className="text-center text-white font-semibold">Crypto recovery services are the need of the hour. Additionally, there are a lot of con artists that prey on innocent people. As per FTC, 690,000 US citizens fell for online scams amounting to $10.02 billion, and these are just those who reported them. These figures are bound to be huge as many refrain from filing a complaint with the authorities.</p>
+        <p className="text-center text-white font-semibold">With the use of high-level blockchain forensics and state-of-the-art hardware, we aggressively pursue each crypto fraud through comprehensive cyber investigations. We make a point to maximize stolen financial assets by uncovering cyber crimes committed by these fraudsters.</p>
+        <p className="text-center text-white font-semibold">Our team of crypto recovery services specialists has valuable years of experience and knowledge that allows us to track down those cryptos that you may have lost in an online crypto scam.</p>
+        </div>
+     
+      </div>
+
+      {/* second too last section of this page */}
+      <div>
+      <div className="flex flex-col justify-center mt-10 items-center gap-5 border-y border-white py-6">
+      <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">Recover Access To Your Investments!</h1>
+      <div>
+      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300"> BEGIN RECOVERY</button>
+      </div>
+     
+      </div>
+      </div>
+      {/* faq section */}
+      <div>
+        <FaqCrypto/>
+      </div>
+      <div>
+        <OurServices/>
       </div>
     </div>
   );

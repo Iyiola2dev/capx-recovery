@@ -193,16 +193,7 @@ export const faqData = [
     question: "How To Spot A Cryptocurrency Scammer?",
     title:
       "Remember that scammers seek you out to make quick money. All scammers follow the following strategies to entice their victims:",
-    answer1: "1. Offering unrealistic returns on investment",
-    answer2: "2. Instilling fear and greed in your mind",
-    answer3:
-      "3. A small window of opportunity to make a substantial amount of money",
-    answer4: "4. Employing high-pressure sales strategies",
-    answer5: "5. Using coercive language to convince you",
-    answer6:
-      "6. They show a remarkable need to close the deal as quickly as possible.",
-    answer7:
-      "7. They will also prompt you to apply for loans to invest in these bogus schemes.",
+   
   },
   {
     question:
@@ -350,3 +341,103 @@ export const scamsData = [
     linkText: 'Read More',
   },
 ];
+
+export const signData = [
+  {
+    title: 'SLow-Risk, High-Return Guarantee',
+    description: `Each and every business in this world has a certain risk factor associated with it. If someone offers you a business opportunity to invest in the crypto market with high returns and low associated risk, then you can be sure that the person is a scammer, as the crypto market is highly volatile and has a high associated risk factor.`,
+   
+  },
+  {
+    title: 'Unrealistic Returns',
+    description: `Scammers will engage in a fake promise of providing high-interest rates for staking your cryptos on their platforms. However, you must use caution, as they will have total control over your staked cryptos on their exchange, and the chances of them defaulting and going bankrupt are also very high.`,
+   
+  },
+  {
+    title: 'Unsolicited Contacts',
+    description: `When someone approaches you to invest and trade in crypto through high-pressure sales and coercive tactics, you can be sure that you are dealing with a scammer. These scammers will rush you into the deal and try to close it with a fake narrative of a once-in-a-lifetime opportunity.
+A genuine crypto broker or brokerage firm will ensure that you have sufficient time to analyze and evaluate the business opportunity and make a well-informed decision.`,
+   
+  },
+  {
+    title: 'The Business Model',
+    description: `Scammers impersonating a crypto investor or trader will frequently use financial and crypto jargon to appear as well-seasoned players. They will concentrate on how much money you will be making instead of sharing how the business model will work.`,
+   
+  },
+];
+
+export const faqCrypto = [
+  {
+    question: "How do I avoid a crypto scam?",
+    title: `Scammers know that if they give their potential victims some time to think, their scam will not work. Thus, if you receive any unsolicited call where the person on the other end is rushing you to take immediate steps and subscribe to their financial services, then you can be sure that the proposed scheme is a fraud.
+You must buy a good mint-conditioned cold crypto wallet to save your cryptos and refrain from stalking them on the exchange or with the crypto broker. If and when they go bankrupt, you can still save your cryptos.`,
+  },
+  {
+    question: "When and where can I report a cryptocurrency scam?",
+    title:
+      "You need to get in touch with the Securities and Exchange Commission, the Federal Trade Commission, the Internet Crime Complaint Center, the local Law Enforcement Agency, the Federal Law Enforcement Agency, the District Attorney, and the State General Attorney, and file a complaint with them.For a quick and easy way to get all the current details regarding the cryptocurrency scam, get in touch with our experts. Share your experience regarding the crypto fraud committed with our experts for a free consultation and a realistic approach to the recovery of your stolen cryptos.",
+    
+  },
+  {
+    question: "Someone sent me cryptocurrency; is it a crypto scam?",
+    title:
+      "Someone sending you cryptocurrency with the intent of scamming you is high. Scammers will generally send cryptos randomly to someone with the intent of creating trust. Once the victim’s confidence is gained, these scammers will demand more crypto than they originally sent them.",
+   
+  },
+  {
+    question:
+      "Can I recover my losses from a WhatsApp / Facebook scam?",
+    title:
+      "Yes, you can recover your losses from WhatsApp or any other social media scam. However, the entire recovery operation depends upon how quickly the crime was reported, the interaction, engagement, and cooperation of the foreign country from which the crime was perpetrated, and the nature of the scam committed",
+   
+  },
+  {
+    question: "Is a Crypto scam recoverable?",
+    title:
+      "Yes, crypto scams can be recovered; however, you need to take swift action. You need to contact the various authorities within your country and request a legal recourse. There may be chances where you may not be able to recover all your cryptos, but you can always ask for an attorney with expertise in cryptos and international financial rules and regulations.",
+   
+  },
+];
+
+export const ourServices = [
+  {
+    id: 1,
+    title: "Cryptocurrency Scam Recovery",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/1_jrunrj.webp",
+  },
+  {
+    id: 2,
+    title: "Forex Scam",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/2_axldkx.webp",
+  },
+  {
+    id: 3,
+    title: "Ponzi Schemes",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/3_af8i81.webp",
+  },
+  {
+    id: 4,
+    title: "NFT Scam",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/4_ungayp.webp",
+  },
+  {
+    id: 5,
+    title: "Romance Scam",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/5_gp4ps6.png",
+  },
+  {
+    id: 6,
+    title: "Internet Scam",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/6_enl6j6.webp",
+  },
+  {
+    id: 7,
+    title: "Social Media Scam",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/7_k0hgmn.webp",
+  },
+  {
+    id: 8,
+    title: "Tax Fraud Investigation",
+   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/8_ioz4a9.webp",
+  },
+]

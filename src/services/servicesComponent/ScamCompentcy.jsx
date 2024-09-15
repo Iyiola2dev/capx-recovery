@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { scamCompentcy } from "../../data";
+import { scamCompentcy } from "../../../data";
 
 const ScamCompetency = () => {
   const [scamCompentcyData] = useState(scamCompentcy);
