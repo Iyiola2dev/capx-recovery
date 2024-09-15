@@ -1,4 +1,5 @@
 import React from "react";
+import OurServices from "./servicesComponent/OurServices";
 
 const ForexScam = () => {
   return (
@@ -62,6 +63,14 @@ const ForexScam = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+      {/* Our services section */}
+      <OurServices/>
     </div>
   );
 };
