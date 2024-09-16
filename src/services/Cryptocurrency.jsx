@@ -4,6 +4,7 @@ import CryptoOperatCard from "./servicesComponent/CryptoOperatCard";
 import SignCard from "./servicesComponent/SignCard";
 import FaqCrypto from "./servicesComponent/FaqCrypto";
 import OurServices from "./servicesComponent/OurServices";
+import Footer from "../components/Footer";
 
 const Cryptocurrency = () => {
   return (
@@ -68,6 +69,7 @@ const Cryptocurrency = () => {
       <div>
         <OurServices/>
       </div>
+      <div> <div><Footer/></div></div>
     </div>
   );
 };

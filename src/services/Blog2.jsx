@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { blogCardData2 } from "../../data";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 const Blog2 = () => {
   const cardsPerPage = 6; // Number of cards to show per page
@@ -102,6 +103,7 @@ const Blog2 = () => {
           </div>
         </div>
       </div>
+      <div><Footer/></div>
     </div>
   );
 };

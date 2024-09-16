@@ -3,6 +3,7 @@ import NftSxamData from "./servicesComponent/NftSxamData";
 import ForexFaqData from "./servicesComponent/ForexFaqData";
 import OurServices from "./servicesComponent/OurServices";
 import NftCard from "./servicesComponent/NftCard";
+import Footer from "../components/Footer";
 
 const NFTScam = () => {
   return (
@@ -93,7 +94,8 @@ const NFTScam = () => {
       <div  className="bg-green-900 border-t">
       <OurServices />
       </div>
-      
+       {/* The footer section */}
+       <div> <div><Footer/></div></div>
     </div>
   );
 };

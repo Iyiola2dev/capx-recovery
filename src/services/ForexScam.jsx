@@ -4,6 +4,7 @@ import ForexScamData from "./servicesComponent/ForexScamData";
 import ForexCard from "./servicesComponent/ForexCard";
 import ForexOpCard from "./servicesComponent/ForexOpCard";
 import ForexFaqData from "./servicesComponent/ForexFaqData";
+import Footer from "../components/Footer";
 
 const ForexScam = () => {
   return (
@@ -78,15 +79,21 @@ const ForexScam = () => {
       </div>
       {/* the fifth section */}
       <div>
-        <ForexOpCard/>
+        <ForexOpCard />
       </div>
       <div className=" p-5 lg:p-10 flex flex-col gap-6 md:justify-center md:items-center">
-        <h1 className="text-3xl font-bold mb-4 text-[#ffdb8a] text-center">Report The Scam, Recover Promptly</h1>
+        <h1 className="text-3xl font-bold mb-4 text-[#ffdb8a] text-center">
+          Report The Scam, Recover Promptly
+        </h1>
         <div className="flex flex-col gap-5 lg:text-xl">
-        <p className="text-center text-white font-semibold">Falling for a Forex scam isn’t your fault, but choosing not to act is. Partner with a transparent, established recovery agency like Capx Recovery. Our experts gather evidence to support your legal case and assure a money-back policy. Exercise your rights and we’ll support you through every step of your recovery.</p>
-       
+          <p className="text-center text-white font-semibold">
+            Falling for a Forex scam isn’t your fault, but choosing not to act
+            is. Partner with a transparent, established recovery agency like
+            Capx Recovery. Our experts gather evidence to support your legal
+            case and assure a money-back policy. Exercise your rights and we’ll
+            support you through every step of your recovery.
+          </p>
         </div>
-     
       </div>
       {/*  */}
       <div>
@@ -96,7 +103,6 @@ const ForexScam = () => {
           </h1>
           <div>
             <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
-              
               Report Your case
             </button>
           </div>
@@ -104,12 +110,20 @@ const ForexScam = () => {
       </div>
 
       {/* The FAQ section */}
-<div>
-  <ForexFaqData/>
-</div>
-     
+      <div>
+        <ForexFaqData />
+      </div>
+
       {/* Our services section */}
       <OurServices />
+
+      {/* The footer section */}
+      <div>
+        {" "}
+        <div>
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 };
