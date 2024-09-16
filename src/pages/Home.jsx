@@ -10,6 +10,7 @@ import ClientExperience from "../components/ClientExperience";
 import Faq from "../components/Faq";
 import Reclaim from "../components/Reclaim";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,7 +28,8 @@ const Home = () => {
             money.
           </p>
           <button className="primary-btn bg-green-300/10 p-4 hover:bg-green-300/25  text-white  flex items-center gap-2 rounded-2xl">
-            GET YOUR MONEY BACK
+            <Link to="/contact">GET YOUR MONEY BACK</Link>
+           
           </button>
           <img
             src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726148225/Bitcoin/Group_922-removebg-preview-300x125_a4nfqu.webp"
@@ -100,7 +102,8 @@ const Home = () => {
             </div>
 
             <button className="rounded-3xl py-3 px-6 bg-[#ffdb8a]">
-              More About Us
+            <Link to="/about">More About Us</Link>
+              
             </button>
           </div>
           <div className="mx-auto hidden lg:flex lg:flex-1 h-[30rem] lg:justify-end">

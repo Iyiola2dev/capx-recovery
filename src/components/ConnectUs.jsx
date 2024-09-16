@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ConnectUs = () => {
   return (
@@ -35,7 +36,8 @@ const ConnectUs = () => {
             </p>
           </div>
           <button className="rounded-3xl py-3 px-6 text-[#ffdb8a] bg-blue-900  font-bold">
-            Connect with us
+          <Link to="/contact">  Connect with us</Link>
+          
           </button>
         </div>
       </div>
