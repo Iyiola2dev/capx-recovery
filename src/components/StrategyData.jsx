@@ -1,5 +1,6 @@
 import React from 'react'
 import { strategyData } from '../../data'
+import { Link } from 'react-router-dom'
 
 const StrategyData = () => {
   return (
@@ -21,7 +22,8 @@ const StrategyData = () => {
     </div>
     <div className="text-center mt-10">
       <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
-        Report Your Case
+      <Link to="/contact"> Report Your Case</Link>
+       
       </button>
     </div>
   </div>

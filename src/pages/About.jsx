@@ -3,6 +3,7 @@ import Services from "../components/Services";
 import StrategyData from "../components/StrategyData";
 import CryptoCases from "../components/CryptoCases";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -65,7 +66,9 @@ const About = () => {
       <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">Begin The Process Immediately For
       A Greater Chance Of Asset Recovery</h1>
       <div>
-      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300"> Report Your Case</button>
+      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
+      <Link to="/contact">Report Your Case</Link>
+         </button>
       </div>
      
       </div>
