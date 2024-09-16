@@ -9,7 +9,7 @@ const NftCard = () => {
           <h1 className="text-yellow-400 text-4xl font-bold mb-6">
             NFT Scam Recovery Process
           </h1>
-          <p className="text-gray-300 text-xs  max-w-2xl font-semibold md:text-left">
+          <p className="text-gray-300 text-lg  max-w-2xl font-semibold md:text-left">
             A methodical strategy to retrieve your digital assets.
           </p>
         </div>
@@ -18,12 +18,12 @@ const NftCard = () => {
           {nftData.map((item, index) => (
             <div
               key={index}
-              className="bg-blue-900 rounded-lg shadow-lg p-6 m-4 w-[25rem] h-60 flex flex-col justify-center items-center"
+              className="bg-blue-900 rounded-lg shadow-lg p-6 m-4 w-[25rem] h-[25rem]  flex flex-col justify-center items-center"
             >
               <h2 className="text-xl text-[#ffdb8a] font-bold mb-2">
                 {item.title}
               </h2>
-              <p className="text-white">{item.description}</p>
+              <p className="text-white text-sm md:text-base">{item.description}</p>
             </div>
           ))}
         </div>
