@@ -31,28 +31,28 @@ const Nav = () => {
             <span className="hover:border-b-2">Our Services</span>
             {isServicesOpen && (
               <ul className="absolute top-full left-0 mt-[1.2rem] bg-green-900 z-20 text-black  shadow-lg w-48">
-                <li className="p-2 hover:bg-gray-100">
+                <li   onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/cryptocurrency-scam-recovery">Cryptocurrency Scam Recovery</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/forex-scam">Forex Scam</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/nft-scam">NFT Scam</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/ponzi-schemes">Ponzi Schemes</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/romance-scam">Romance Scam</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/tax-fraud-investigation">Tax Fraud Investigation</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/internet-scam">Internet Scam</Link>
                 </li>
-                <li className="p-2 hover:bg-gray-100">
+                <li  onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-gray-100">
                   <Link to="/services/social-media-scam">Social Media Scam</Link>
                 </li>
               </ul>
@@ -101,14 +101,14 @@ const Nav = () => {
           <span>Our Services</span>
           {isServicesOpen && (
             <div className="absolute top-full left-0 w-full bg-gray-800 text-white border border-gray-700 shadow-lg">
-              <Link to="/services/cryptocurrency-scam-recovery" className="block px-4 py-2 hover:bg-gray-600">Cryptocurrency Scam Recovery</Link>
-              <Link to="/services/forex-scam" className="block px-4 py-2 hover:bg-gray-600">Forex Scam</Link>
-              <Link to="/services/nft-scam" className="block px-4 py-2 hover:bg-gray-600">NFT Scam</Link>
-              <Link to="/services/ponzi-schemes" className="block px-4 py-2 hover:bg-gray-600">Ponzi Schemes</Link>
-              <Link to="/services/romance-scam" className="block px-4 py-2 hover:bg-gray-600">Romance Scam</Link>
-              <Link to="/services/tax-fraud-investigation" className="block px-4 py-2 hover:bg-gray-600">Tax Fraud Investigation</Link>
-              <Link to="/services/internet-scam" className="block px-4 py-2 hover:bg-gray-600">Internet Scam</Link>
-              <Link to="/services/social-media-scam" className="block px-4 py-2 hover:bg-gray-600">Social Media Scam</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/cryptocurrency-scam-recovery" className="block px-4 py-2 hover:bg-gray-600">Cryptocurrency Scam Recovery</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/forex-scam" className="block px-4 py-2 hover:bg-gray-600">Forex Scam</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/nft-scam" className="block px-4 py-2 hover:bg-gray-600">NFT Scam</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/ponzi-schemes" className="block px-4 py-2 hover:bg-gray-600">Ponzi Schemes</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/romance-scam" className="block px-4 py-2 hover:bg-gray-600">Romance Scam</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/tax-fraud-investigation" className="block px-4 py-2 hover:bg-gray-600">Tax Fraud Investigation</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/internet-scam" className="block px-4 py-2 hover:bg-gray-600">Internet Scam</Link>
+              <Link  onClick={() => setIsMenuOpen(false)} to="/services/social-media-scam" className="block px-4 py-2 hover:bg-gray-600">Social Media Scam</Link>
             </div>
           )}
         </div>
