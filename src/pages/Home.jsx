@@ -9,6 +9,7 @@ import MiniBlog from "../components/MiniBlog";
 import ClientExperience from "../components/ClientExperience";
 import Faq from "../components/Faq";
 import Reclaim from "../components/Reclaim";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -119,6 +120,7 @@ const Home = () => {
       <ClientExperience />
       <Faq />
       <Reclaim />
+      <Footer/>
     </div>
   );
 };
