@@ -5,6 +5,7 @@ import ForexCard from "./servicesComponent/ForexCard";
 import ForexOpCard from "./servicesComponent/ForexOpCard";
 import ForexFaqData from "./servicesComponent/ForexFaqData";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const ForexScam = () => {
   return (
@@ -103,7 +104,8 @@ const ForexScam = () => {
           </h1>
           <div>
             <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
-              Report Your case
+            <Link to="/contact">  Report Your case</Link>
+             
             </button>
           </div>
         </div>

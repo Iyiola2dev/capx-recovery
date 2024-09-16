@@ -5,6 +5,7 @@ import SignCard from "./servicesComponent/SignCard";
 import FaqCrypto from "./servicesComponent/FaqCrypto";
 import OurServices from "./servicesComponent/OurServices";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Cryptocurrency = () => {
   return (
@@ -57,7 +58,9 @@ const Cryptocurrency = () => {
       <div className="flex flex-col justify-center mt-10 items-center gap-5 border-y border-white py-6">
       <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">Recover Access To Your Investments!</h1>
       <div>
-      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300"> BEGIN RECOVERY</button>
+      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300"> 
+      <Link to="/contact"> BEGIN RECOVERY</Link>
+       </button>
       </div>
      
       </div>

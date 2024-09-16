@@ -28,7 +28,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row bg-green-900  py-12  rounded-2xl items-center  px-3 gap-4">
         <div className="flex-1 rounded-2xl">
           <img
-          className="rounded-2xl"
+            className="rounded-2xl"
             src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726264825/Bitcoin/Our-approach_1_qke5me.webp"
             alt=""
           />
@@ -59,22 +59,24 @@ const About = () => {
       <div>
         <Services />
       </div>
-      <CryptoCases/>
+      <CryptoCases />
 
       <div>
-      <div className="flex flex-col justify-center mt-10 items-center gap-5">
-      <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">Begin The Process Immediately For
-      A Greater Chance Of Asset Recovery</h1>
-      <div>
-      <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
-      <Link to="/contact">Report Your Case</Link>
-         </button>
-      </div>
-     
-      </div>
+        <div className="flex flex-col justify-center mt-10 items-center gap-5">
+          <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">
+            Begin The Process Immediately For A Greater Chance Of Asset Recovery
+          </h1>
+          <div>
+            <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
+              <Link to="/contact">Report Your Case</Link>
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div><Footer/></div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import ForexFaqData from "./servicesComponent/ForexFaqData";
 import OurServices from "./servicesComponent/OurServices";
 import NftCard from "./servicesComponent/NftCard";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const NFTScam = () => {
   return (
@@ -78,8 +79,8 @@ const NFTScam = () => {
           </h1>
           <div>
             <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
-              
-              Report Your case
+            <Link to="/contact">  Report Your case</Link>
+             
             </button>
           </div>
         </div>
