@@ -1,10 +1,11 @@
 import React from "react";
 import NftSxamData from "./servicesComponent/NftSxamData";
-import ForexFaqData from "./servicesComponent/ForexFaqData";
+
 import OurServices from "./servicesComponent/OurServices";
 import NftCard from "./servicesComponent/NftCard";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import NftFaqDatas from "./servicesComponent/NftFaqDatas";
 
 const NFTScam = () => {
   return (
@@ -24,28 +25,36 @@ const NFTScam = () => {
           </button>
         </div>
         <div className="flex-1 hidden md:flex xl:justify-end">
-          <img
-            className="rounded-lg"
-            src=""
-            alt=""
-          />
+          <img className="rounded-lg" src="" alt="" />
         </div>
       </div>
 
       {/*second section of this page */}
       <div className="flex flex-col justify-center items-center gap-7 bg-green-900 py-8 px-3">
         <h2 className="text-2xl md:text-3xl text-center font-bold text-[#ffdb8a]">
-        Capx Recovery's NFT Scam Recovery Expertise
+          Capx Recovery's NFT Scam Recovery Expertise
         </h2>
         <div className=" rounded-2xl">
           <div className="flex flex-col lg:flex-row gap-5 items-center w-full lg:px-10 p-9 bg-green-300/35 rounded-2xl ">
             {/* Text Section */}
             <div className="flex flex-col gap-4 text-center lg:text-left lg:flex-1">
               <p className="text-sm  font-bold text-white lg:w-[500px]">
-              You no longer have to deal with the burden of a financial tragedy all on your own. Given our track record of successfully recovering money lost to scams, we are confident in our approach and promise maximum recovery of funds. To ensure the same, we suggest reporting a fraud immediately, with all the relevant data around the scam.
+                You no longer have to deal with the burden of a financial
+                tragedy all on your own. Given our track record of successfully
+                recovering money lost to scams, we are confident in our approach
+                and promise maximum recovery of funds. To ensure the same, we
+                suggest reporting a fraud immediately, with all the relevant
+                data around the scam.
               </p>
               <p className="text-sm  font-bold text-white lg:w-[500px]">
-              Our advancements in the field of investigative proficiency and fund tracing enable us to provide efficient solutions. Right from understanding the emotional turmoil that a victim goes through, to uncovering the deepest darkest manipulations that a scammer utilizes, we have what it takes to crack a case. Without any further ado, connect with us over a free consultation session and learn the chances of regaining your lost investments or funds.
+                Our advancements in the field of investigative proficiency and
+                fund tracing enable us to provide efficient solutions. Right
+                from understanding the emotional turmoil that a victim goes
+                through, to uncovering the deepest darkest manipulations that a
+                scammer utilizes, we have what it takes to crack a case. Without
+                any further ado, connect with us over a free consultation
+                session and learn the chances of regaining your lost investments
+                or funds.
               </p>
             </div>
 
@@ -61,42 +70,42 @@ const NFTScam = () => {
         </div>
       </div>
 
+      {/* The third section of the page */}
+      <div>
+        <NftSxamData />
+      </div>
 
-       {/* The third section of the page */}
-       <div>
-        <NftSxamData/>
-       </div>
+      {/* fourt section */}
+      <div>
+        <NftCard />
+      </div>
 
-{/* fourt section */}
-<div>
-  <NftCard/>
-</div>
-
-       <div>
+      <div>
         <div className="flex flex-col justify-center  items-center gap-5 border-y bg-green-600/35 border-white py-6">
-          <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">
-            Secure Money Lost to a Fake FX Broker
+          <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto px-5">
+            Regain The NFTs That Belong To You!
           </h1>
           <div>
             <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
-            <Link to="/contact">  Report Your case</Link>
-             
+              <Link to="/contact"> Seek Recovery</Link>
             </button>
           </div>
         </div>
       </div>
 
       {/* The FAQ section */}
-<div className="bg-green-600/35">
-  <ForexFaqData/>
-</div>
-     
-      {/* Our services section */}
-      <div  className="bg-green-900 border-t">
-      <OurServices />
+      <div className="bg-green-600/35">
+        <NftFaqDatas />
       </div>
-       {/* The footer section */}
-       <div> <div><Footer/></div></div>
+
+      {/* Our services section */}
+      <div className="bg-green-900 border-t">
+        <OurServices />
+      </div>
+      {/* The footer section */}
+      <div className="border-t">
+        <Footer />
+      </div>
     </div>
   );
 };

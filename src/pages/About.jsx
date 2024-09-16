@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="bg-green-300/35   px-8 py-10 flex flex-col items-center ">
+    <div className="bg-green-300/35 ">
+       <div className="bg-green-300/35   px-8 py-10 flex flex-col items-center ">
       <div className="  bg-cover bg-transparent rounded-2xl">
         <div className="  flex flex-col items-center py-10 gap-5 rounded-2xl">
           <h1 className="text-3xl md:text-5xl font-bold text-[#ffdb8a]">
@@ -74,10 +75,13 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+     
+    </div>
+    <div className="mt-3">
         <Footer />
       </div>
     </div>
+   
   );
 };
 

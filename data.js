@@ -581,6 +581,40 @@ export const nftData = [
   },
 ];
 
+export const nftFaqData = [
+  {
+    question: "What are NFT Marketplaces?",
+    title: `When you realize that you have been a victim of a Forex scam, contact the forex broker and demand for a valid answer. If they fail to provide you with any convincing reply then follow these steps.
+Contact the authorities at the Securities and Exchange Commission, the Commodity Futures Trading Commission, the Internet Crime Complaint Center, the local Law Enforcement Agency, the Federal Law Enforcement Agency, the District Attorney, and the State General Attorney, and file a complaint with them.
+You also need to contact your banks and credit bureau to stop further restricting the flow of the money from your account into the scammers account. Ask for a free copy from the credit bureau and look for unauthorized transactions or bank accounts. Report them to the relevant authorities, and request an account freeze until the investigation is completed.
+Get in touch with the wire transfer authorities and report the scam to them.
+You also have the option of contacting our Forex recovery services specialist, for a free consultation and get realistic advice and approach in the recovery of your stolen financial funds.`,
+  },
+  {
+    question: "How do NFT Scams work on social media platforms?",
+    title:
+      "Con artists are smart, and they will work on your emotions to get what they want. They will entice their victims by offering fake deals:",
+    answer1: "1. Once-in-a-lifetime opportunity",
+    answer2: "2. Exaggerated and unbelievable returns on investments",
+    answer3: "3. Get quick schemes",
+    answer4: "4. Low risk and high returns on investments.",
+    answer5:
+      "5. Their firm is so expert at picking cryptos at the perfect time that they rarely have any losses.",
+    answer6: "6. Ponzi schemes are common in crypto scams.",
+  },
+  
+  {
+    question: "How to avoid fake NFT’s?",
+    title:
+      `The chances of recovering financial assets from a Forex scam generally depends on how fast the scam was discovered and how much money was involved. Scammers are known to launder their stolen money from one bank account to another.`,
+  },
+  {
+    question: "How do I report NFT fraud?",
+    title: `The Forex brokers and brokerage firms offer their services based on mutual trust and honesty. However, if the victim of a forex scam manages to prove that the Forex broker or brokerage firm has swindled money through fake promises and statements, then a case against the perpetrator can be made.
+Our Forex recovery services specialist can advise and help you in your journey to recover your stolen financial funds from the scam.`,
+  },
+];
+
 
 
 // Blog data
