@@ -76,12 +76,12 @@ const Blog2 = () => {
         </div>
 
         {/* Page Numbers */}
-        <div className="flex gap-4 text-2xl font-bold text-green-900">
+        <div className="flex gap-4 text-2xl font-bold text-[#ffdb8a]">
           {Array.from({ length: totalPages }, (_, i) => (
             <p
               key={i + 1}
               onClick={() => handlePageChange(i + 1)}
-              className={`hover:bg-white px-3 py-2 cursor-pointer ${
+              className={`hover:bg-white hover:text-green-900 px-3 py-2 cursor-pointer ${
                 currentPage === i + 1 ? "bg-white" : ""
               }`}
             >
