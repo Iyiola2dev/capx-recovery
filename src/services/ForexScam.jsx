@@ -1,5 +1,9 @@
 import React from "react";
 import OurServices from "./servicesComponent/OurServices";
+import ForexScamData from "./servicesComponent/ForexScamData";
+import ForexCard from "./servicesComponent/ForexCard";
+import ForexOpCard from "./servicesComponent/ForexOpCard";
+import ForexFaqData from "./servicesComponent/ForexFaqData";
 
 const ForexScam = () => {
   return (
@@ -30,11 +34,11 @@ const ForexScam = () => {
         <h2 className="text-2xl md:text-3xl text-center font-bold text-[#ffdb8a]">
           Our Expertise in Forex Scam Recovery
         </h2>
-        <div className="bg-bitcoin3 rounded-2xl">
+        <div className=" rounded-2xl">
           <div className="flex flex-col lg:flex-row gap-5 items-center w-full lg:px-10 p-9 bg-green-300/35 rounded-2xl ">
             {/* Text Section */}
             <div className="flex flex-col gap-4 text-center lg:text-left lg:flex-1">
-              <p className="text-sm sm:text-lg font-bold text-white lg:w-[500px]">
+              <p className="text-sm  font-bold text-white lg:w-[500px]">
                 The Forex market is large and volatile, making it a prime target
                 for scams. Our trained professionals and skilled investigators
                 have handled thousands of cases with great results. Although
@@ -43,7 +47,7 @@ const ForexScam = () => {
                 fees because our team handles everything systematically and
                 efficiently.
               </p>
-              <p className="text-sm sm:text-lg font-bold text-white lg:w-[500px]">
+              <p className="text-sm  font-bold text-white lg:w-[500px]">
                 We cover all types of scams to ensure investors don’t suffer
                 losses from trusting the wrong people. With us by your side,
                 getting your money back from a forex fraud doesn’t have to be
@@ -64,13 +68,48 @@ const ForexScam = () => {
         </div>
       </div>
 
+      {/* The third section of the page */}
+      <div>
+        <ForexScamData />
+      </div>
+      {/* the fourth section */}
+      <div>
+        <ForexCard />
+      </div>
+      {/* the fifth section */}
+      <div>
+        <ForexOpCard/>
+      </div>
+      <div className=" p-5 lg:p-10 flex flex-col gap-6 md:justify-center md:items-center">
+        <h1 className="text-3xl font-bold mb-4 text-[#ffdb8a] text-center">Report The Scam, Recover Promptly</h1>
+        <div className="flex flex-col gap-5 lg:text-xl">
+        <p className="text-center text-white font-semibold">Falling for a Forex scam isn’t your fault, but choosing not to act is. Partner with a transparent, established recovery agency like Capx Recovery. Our experts gather evidence to support your legal case and assure a money-back policy. Exercise your rights and we’ll support you through every step of your recovery.</p>
+       
+        </div>
+     
+      </div>
+      {/*  */}
+      <div>
+        <div className="flex flex-col justify-center mt-10 items-center gap-5 border-y border-white py-6">
+          <h1 className="text-3xl text-center font-bold text-[#ffdb8a] md:w-[400px] md:mx-auto">
+            Secure Money Lost to a Fake FX Broker
+          </h1>
+          <div>
+            <button className="bg-green-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition-colors duration-300">
+              
+              Report Your case
+            </button>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
+      {/* The FAQ section */}
+<div>
+  <ForexFaqData/>
+</div>
+     
       {/* Our services section */}
-      <OurServices/>
+      <OurServices />
     </div>
   );
 };

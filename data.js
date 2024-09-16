@@ -193,7 +193,6 @@ export const faqData = [
     question: "How To Spot A Cryptocurrency Scammer?",
     title:
       "Remember that scammers seek you out to make quick money. All scammers follow the following strategies to entice their victims:",
-   
   },
   {
     question:
@@ -272,7 +271,6 @@ export const strategyData = [
   },
 ];
 
-
 //Services  data
 
 export const scamCompentcy = [
@@ -315,54 +313,48 @@ export const scamCompentcy = [
     title: "Recovery Phase",
     text: "With the combined efforts of all our departments, our experts will analyze and strategize personalized approaches unique to each case. They will come together and recover the maximum number of cryptos that were stolen in the scam. Our crypto scams recovery experts are ready for any latest developments that may pose a hindrance during the recovery phase, allowing a smooth translation of cryptos from the scammer's wallet into their rightful owner's possession.",
   },
-
- 
 ];
 
 export const scamsData = [
   {
-    title: 'Social Media Platform Scam',
+    title: "Social Media Platform Scam",
     description: `Scammers use social media to reach more people, tricking them through platforms like Facebook, Instagram, WhatsApp, Telegram, Twitter, and Tinder. They use the trust people have in social media influencers to run scams like rug-pull and pump-and-dump schemes, profiting from their followers’ trust and money. Be careful and stay aware to protect yourself from these online scams.`,
-    linkText: 'Read More',
+    linkText: "Read More",
   },
   {
-    title: 'Ponzi Scheme & Pyramid Schemes',
+    title: "Ponzi Scheme & Pyramid Schemes",
     description: `Scammers use Ponzi and pyramid schemes to trick people into making money for others. They promise big returns on investments but rely on new recruits to keep the scheme going. When new recruits stop coming, the scheme collapses, leaving many people financially ruined.`,
-    linkText: 'Read More',
+    linkText: "Read More",
   },
   {
-    title: 'Non-Fungible Tokens (NFTs)',
+    title: "Non-Fungible Tokens (NFTs)",
     description: `NFTs are unique digital assets that have become popular recently. Scammers sell fake NFTs at high prices, tricking people into paying for worthless items. Be careful when dealing with NFTs to avoid these scams.`,
-    linkText: 'Read More',
+    linkText: "Read More",
   },
   {
-    title: 'Investment Scams',
+    title: "Investment Scams",
     description: `Scammers promise quick wealth, tricking people into investing large sums of money. These scams take many forms, like fake investment opportunities and fraudulent business ventures. Once trapped, victims may lose a lot of money.`,
-    linkText: 'Read More',
+    linkText: "Read More",
   },
 ];
 
 export const signData = [
   {
-    title: 'SLow-Risk, High-Return Guarantee',
+    title: "SLow-Risk, High-Return Guarantee",
     description: `Each and every business in this world has a certain risk factor associated with it. If someone offers you a business opportunity to invest in the crypto market with high returns and low associated risk, then you can be sure that the person is a scammer, as the crypto market is highly volatile and has a high associated risk factor.`,
-   
   },
   {
-    title: 'Unrealistic Returns',
+    title: "Unrealistic Returns",
     description: `Scammers will engage in a fake promise of providing high-interest rates for staking your cryptos on their platforms. However, you must use caution, as they will have total control over your staked cryptos on their exchange, and the chances of them defaulting and going bankrupt are also very high.`,
-   
   },
   {
-    title: 'Unsolicited Contacts',
+    title: "Unsolicited Contacts",
     description: `When someone approaches you to invest and trade in crypto through high-pressure sales and coercive tactics, you can be sure that you are dealing with a scammer. These scammers will rush you into the deal and try to close it with a fake narrative of a once-in-a-lifetime opportunity.
 A genuine crypto broker or brokerage firm will ensure that you have sufficient time to analyze and evaluate the business opportunity and make a well-informed decision.`,
-   
   },
   {
-    title: 'The Business Model',
+    title: "The Business Model",
     description: `Scammers impersonating a crypto investor or trader will frequently use financial and crypto jargon to appear as well-seasoned players. They will concentrate on how much money you will be making instead of sharing how the business model will work.`,
-   
   },
 ];
 
@@ -376,26 +368,21 @@ You must buy a good mint-conditioned cold crypto wallet to save your cryptos and
     question: "When and where can I report a cryptocurrency scam?",
     title:
       "You need to get in touch with the Securities and Exchange Commission, the Federal Trade Commission, the Internet Crime Complaint Center, the local Law Enforcement Agency, the Federal Law Enforcement Agency, the District Attorney, and the State General Attorney, and file a complaint with them.For a quick and easy way to get all the current details regarding the cryptocurrency scam, get in touch with our experts. Share your experience regarding the crypto fraud committed with our experts for a free consultation and a realistic approach to the recovery of your stolen cryptos.",
-    
   },
   {
     question: "Someone sent me cryptocurrency; is it a crypto scam?",
     title:
       "Someone sending you cryptocurrency with the intent of scamming you is high. Scammers will generally send cryptos randomly to someone with the intent of creating trust. Once the victim’s confidence is gained, these scammers will demand more crypto than they originally sent them.",
-   
   },
   {
-    question:
-      "Can I recover my losses from a WhatsApp / Facebook scam?",
+    question: "Can I recover my losses from a WhatsApp / Facebook scam?",
     title:
       "Yes, you can recover your losses from WhatsApp or any other social media scam. However, the entire recovery operation depends upon how quickly the crime was reported, the interaction, engagement, and cooperation of the foreign country from which the crime was perpetrated, and the nature of the scam committed",
-   
   },
   {
     question: "Is a Crypto scam recoverable?",
     title:
       "Yes, crypto scams can be recovered; however, you need to take swift action. You need to contact the various authorities within your country and request a legal recourse. There may be chances where you may not be able to recover all your cryptos, but you can always ask for an attorney with expertise in cryptos and international financial rules and regulations.",
-   
   },
 ];
 
@@ -403,41 +390,434 @@ export const ourServices = [
   {
     id: 1,
     title: "Cryptocurrency Scam Recovery",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/1_jrunrj.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/1_jrunrj.webp",
   },
   {
     id: 2,
     title: "Forex Scam",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/2_axldkx.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/2_axldkx.webp",
   },
   {
     id: 3,
     title: "Ponzi Schemes",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/3_af8i81.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/3_af8i81.webp",
   },
   {
     id: 4,
     title: "NFT Scam",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/4_ungayp.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/4_ungayp.webp",
   },
   {
     id: 5,
     title: "Romance Scam",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/5_gp4ps6.png",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/5_gp4ps6.png",
   },
   {
     id: 6,
     title: "Internet Scam",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/6_enl6j6.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/6_enl6j6.webp",
   },
   {
     id: 7,
     title: "Social Media Scam",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/7_k0hgmn.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/7_k0hgmn.webp",
   },
   {
     id: 8,
     title: "Tax Fraud Investigation",
-   image: "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/8_ioz4a9.webp",
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726415752/Bitcoin/8_ioz4a9.webp",
   },
-]
+];
+
+export const forexScam = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446833/Bitcoin/Recovery-Consultation-300x300_i5i2cb.webp",
+    title: "Recovery Consultation",
+    text: "Our Forex recovery specialist will gather all details of the scam to build a strong case.",
+  },
+
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Forex-Scam-Investigation-300x300_esk1st.webp",
+    title: "Forex Scam Investigation",
+    text: "Based on the collected evidence, we create a personalized strategy to track down the bank accounts and wire transfers involved in the scam. Our experts will negotiate with third parties to maximize the recovery of the stolen funds.",
+  },
+
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Recovery-300x300_gztjok.webp",
+    title: "Recovery",
+    text: "Based on all the evidence gathered, our team of forex recovery experts will create a personalized financial asset recovery plan, helping to maximize the recovery of these stolen funds.",
+  },
+
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Fund-Tracing-300x300_cahhkf.webp",
+    title: "Fund Tracing",
+    text: "Examining crucial details of the case may provide new leads. Our excellent forensics, data analysis, and financial skills can track lost funds. This strengthens your case and helps in recovering the funds easily.",
+  },
+];
+
+export const forexScamData = [
+  {
+    title: "Forex Broker Scams",
+    description:
+      "Fraudulent brokers promise big profits to manage Forex accounts...",
+  },
+  {
+    title: "Forex Pump and Dump Schemes",
+    description:
+      "Scammers use social media to promote fraudulent activities...",
+  },
+  {
+    title: "Forex Trading Bot Scam",
+    description: "Real trading bots exist, but they need a lot of research...",
+  },
+  {
+    title: "Forex Ponzi and Pyramid Schemes",
+    description: "These schemes recruit new members and use their money...",
+  },
+];
+
+export const forexFaqData = [
+  {
+    question: "What to do if you have been scammed by a Forex broker?",
+    title: `When you realize that you have been a victim of a Forex scam, contact the forex broker and demand for a valid answer. If they fail to provide you with any convincing reply then follow these steps.
+Contact the authorities at the Securities and Exchange Commission, the Commodity Futures Trading Commission, the Internet Crime Complaint Center, the local Law Enforcement Agency, the Federal Law Enforcement Agency, the District Attorney, and the State General Attorney, and file a complaint with them.
+You also need to contact your banks and credit bureau to stop further restricting the flow of the money from your account into the scammers account. Ask for a free copy from the credit bureau and look for unauthorized transactions or bank accounts. Report them to the relevant authorities, and request an account freeze until the investigation is completed.
+Get in touch with the wire transfer authorities and report the scam to them.
+You also have the option of contacting our Forex recovery services specialist, for a free consultation and get realistic advice and approach in the recovery of your stolen financial funds.`,
+  },
+  {
+    question: "How to catch a Forex scammer?",
+    title:
+      "Con artists are smart, and they will work on your emotions to get what they want. They will entice their victims by offering fake deals:",
+    answer1: "1. Once-in-a-lifetime opportunity",
+    answer2: "2. Exaggerated and unbelievable returns on investments",
+    answer3: "3. Get quick schemes",
+    answer4: "4. Low risk and high returns on investments.",
+    answer5:
+      "5. Their firm is so expert at picking cryptos at the perfect time that they rarely have any losses.",
+    answer6: "6. Ponzi schemes are common in crypto scams.",
+  },
+  
+  {
+    question: "Will I get my money back from a Forex trading scam?",
+    title:
+      `The chances of recovering financial assets from a Forex scam generally depends on how fast the scam was discovered and how much money was involved. Scammers are known to launder their stolen money from one bank account to another.`,
+  },
+  {
+    question: "What evidence can prove Forex fraud?",
+    title: `The Forex brokers and brokerage firms offer their services based on mutual trust and honesty. However, if the victim of a forex scam manages to prove that the Forex broker or brokerage firm has swindled money through fake promises and statements, then a case against the perpetrator can be made.
+Our Forex recovery services specialist can advise and help you in your journey to recover your stolen financial funds from the scam.`,
+  },
+];
+
+export const nftScamData = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446833/Bitcoin/Recovery-Consultation-300x300_i5i2cb.webp",
+    title: "Recovery Consultation",
+    text: "Our Forex recovery specialist will gather all details of the scam to build a strong case.",
+  },
+
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Forex-Scam-Investigation-300x300_esk1st.webp",
+    title: "Forex Scam Investigation",
+    text: "Based on the collected evidence, we create a personalized strategy to track down the bank accounts and wire transfers involved in the scam. Our experts will negotiate with third parties to maximize the recovery of the stolen funds.",
+  },
+
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Recovery-300x300_gztjok.webp",
+    title: "Recovery",
+    text: "Based on all the evidence gathered, our team of forex recovery experts will create a personalized financial asset recovery plan, helping to maximize the recovery of these stolen funds.",
+  },
+
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Fund-Tracing-300x300_cahhkf.webp",
+    title: "Fund Tracing",
+    text: "Examining crucial details of the case may provide new leads. Our excellent forensics, data analysis, and financial skills can track lost funds. This strengthens your case and helps in recovering the funds easily.",
+  },
+];
+
+export const nftData = [
+  {
+    title: "Vast Knowledge & Experience",
+    description:
+      "With the trust vested in us and our excellence in the recovery industry, we introduce our expansive range of services that assure favorable results. Scam recovery, despite being the best of innovations, isn’t as effortless a process as it may seem. It’s a procedural solution with each step that decides the fate of the recovery.",
+  },
+  {
+    title: "Free Case Assessment",
+    description:
+      "Reporting a fraud is a focal step that one shouldn’t skip. Gulp the embarrassment if you have to, but do not stay silent as you lose your funds. With our free case evaluation, you detect fraud and analyze the degree of your losses. Get an overview into the chances of recovering your investments before taking any further actions.",
+  },
+  {
+    title: "Data Collation & Investigations",
+    description: "Once you receive a go-ahead from the consultants, present all of the scam-related evidence or data available with you. Right from screenshots of any communication payment records, any detail may prove helpful. By analyzing and aligning your data, we set our investigative powers into motion.",
+  },
+  {
+    title: "Advocacy & Recovery",
+    description: "By following the legal framework, we build a strong case and begin negotiations on our client’s behalf. Simultaneously, our tech savvy team traces lost funds and retrieves them. Our clients are also kept informed about the progress made through each step. Such transparent operations allow scam victims to trust our process without any hesitation.",
+  },
+];
+
+
+
+// Blog data
+export const blogCardData = [
+  {
+    id: 1,
+    category: "Crypto",
+    title: "Decentralized Finance (DeFi) Scams: A 2024 Guide to Safety",
+    author: "capxrecovery / September 10, 2024",
+    description: "Introduction Decentralized Finance, or DeFi, is rapidly transforming the finance sector by enabling people to manage their money directly with...",
+    image: "image-url", 
+  },
+  {
+    id: 2,
+    category: "Generic, Internet",
+    title: "How Capx Recovery Can Help Recover Funds from Unreliable Trading Brokers?",
+    author: "capxrecovery / August 28, 2024",
+    description: "In the intricate world of online trading, facing unreliable brokers can lead to significant financial setbacks. Capx Recovery is committed...",
+    image: "image-url",
+  },
+  {
+    id: 3,
+    category: "Generic",
+    title: "How Capx Recovery Can Help Restore Your Finances After Investment Losses?",
+    author: "capxrecovery / August 13, 2024",
+    description: "In the digital age, social media scams are becoming increasingly common, posing significant threats to your financial well-being. Capx Recovery...",
+    image: "image-url",
+  },
+  {
+    id: 4,
+    category: "Tax Fraud Investigation",
+    title: "How Capx Recovery Can Help Identify Unfair Tax Practices by Brokers?",
+    author: "capxrecovery / August 1, 2024",
+    description: "Navigating the financial world is challenging, especially when faced with broker tax scams that threaten your investments. Capx Recovery specializes...",
+    image: "image-url",
+  },
+  {
+    id: 5,
+    category: "Tax Fraud Investigation",
+    title: "Tax Fraud Explained",
+    author: "capxrecovery / July 19, 2024",
+    description: "We are always taxed on goods and services that we purchase, and we also pay other taxes to the government...",
+    image: "image-url",
+  },
+  {
+    id: 6,
+    category: "Social Media",
+    title: "Important 5 Pointers for Privacy and Security on Social Media",
+    author: "capxrecovery / July 3, 2024",
+    description: "Staying safe on social media is crucial as it allows us to connect with the world, though it does come...",
+    image: "image-url",
+  },
+  {
+    id: 7,
+    category: "Ponzi",
+    title: "Top Ponzi Schemes Ever In History",
+    author: "capxrecovery / June 24, 2024",
+    description: "A Ponzi scheme is a kind of investment scam in which investors are lured with the promise of high returns...",
+    image: "image-url",
+  },
+  {
+    id: 8,
+    category: "Ponzi",
+    title: "Top Ponzi Scheme Recoveries",
+    author: "capxrecovery / June 24, 2024",
+    description: "In Ponzi schemes, there are typically no winners. Each scheme leaves behind a trail of pain, devastation, and financial loss...",
+    image: "image-url",
+  },
+  {
+    id: 9,
+    category: "Social Media",
+    title: "12 Types Of LinkedIn Scams To Watch Out For",
+    author: "capxrecovery / June 18, 2024",
+    description: "LinkedIn is a popular professional app that allows many to search for and apply for job postings. In the United...",
+    image: "image-url",
+  },
+];
+
+export const blogCardData2 = [
+  {
+    id: 1,
+    image: '/path/to/image1.jpg', // Replace with actual image paths
+    category: 'Crypto',
+    title: 'Decentralized Finance (DeFi) Scams: A 2024 Guide to Safety',
+    author: 'capxrecovery / September 10, 2024',
+    description: 'Introduction Decentralized Finance, or DeFi, is rapidly transforming the finance sector...',
+  },
+  {
+    id: 2,
+    image: '/path/to/image2.jpg',
+    category: 'Generic, Internet',
+    title: 'How Capx Recovery Can Help Recover Funds from Unreliable Trading Brokers?',
+    author: 'capxrecovery / August 28, 2024',
+    description: 'In the intricate world of online trading, facing unreliable brokers...',
+  },
+  {
+    id: 3,
+    image: '/path/to/image3.jpg',
+    category: 'Generic',
+    title: 'How Capx Recovery Can Help Restore Your Finances After Investment Losses?',
+    author: 'capxrecovery / August 13, 2024',
+    description: 'In the digital age, social media scams are becoming increasingly common...',
+  },
+  {
+    id: 4,
+    image: '/path/to/image4.jpg',
+    category: 'Tax Fraud Investigation',
+    title: 'How Capx Recovery Can Help Identify Unfair Tax Practices by Brokers?',
+    author: 'capxrecovery / August 1, 2024',
+    description: 'Navigating the financial world is challenging, especially when faced with broker tax scams...',
+  },
+  {
+    id: 5,
+    image: '/path/to/image5.jpg',
+    category: 'Tax Fraud Investigation',
+    title: 'Tax Fraud Explained',
+    author: 'capxrecovery / July 19, 2024',
+    description: 'We are always taxed on goods and services that we purchase, and we also pay other taxes...',
+  },
+  {
+    id: 6,
+    image: '/path/to/image6.jpg',
+    category: 'Social Media',
+    title: 'Important 5 Pointers for Privacy and Security on Social Media',
+    author: 'capxrecovery / July 3, 2024',
+    description: 'Staying safe on social media is crucial as it allows us to connect with the world...',
+  },
+  {
+    id: 7,
+    image: '/path/to/image7.jpg',
+    category: 'Ponzi',
+    title: 'Top Ponzi Schemes Ever In History',
+    author: 'capxrecovery / June 24, 2024',
+    description: 'A Ponzi scheme is a kind of investment scam in which investors are lured with promises of high returns...',
+  },
+  {
+    id: 8,
+    image: '/path/to/image8.jpg',
+    category: 'Ponzi',
+    title: 'Top Ponzi Scheme Recoveries',
+    author: 'capxrecovery / June 24, 2024',
+    description: 'In Ponzi schemes, there are typically no winners. Each scheme leaves behind a trail of pain...',
+  },
+  {
+    id: 9,
+    image: '/path/to/image9.jpg',
+    category: 'Social Media',
+    title: '12 Types Of LinkedIn Scams To Watch Out For',
+    author: 'capxrecovery / June 18, 2024',
+    description: 'LinkedIn is a popular professional app that allows many to search for and apply for job postings...',
+  },
+  {
+    id: 10,
+    image: '/path/to/image10.jpg',
+    category: 'Internet Fraud',
+    title: 'How To Spot an Online Investment Scam',
+    author: 'capxrecovery / May 29, 2024',
+    description: 'Online investment scams are rampant. Learn how to identify these scams early on to avoid losses...',
+  },
+  {
+    id: 11,
+    image: '/path/to/image11.jpg',
+    category: 'Investment Fraud',
+    title: '5 Tips for Avoiding Investment Scams',
+    author: 'capxrecovery / May 15, 2024',
+    description: 'Investment fraud is becoming more sophisticated, making it crucial for investors to stay informed...',
+  },
+  {
+    id: 12,
+    image: '/path/to/image12.jpg',
+    category: 'Cybersecurity',
+    title: 'How to Protect Yourself from Phishing Attacks in 2024',
+    author: 'capxrecovery / May 1, 2024',
+    description: 'Phishing attacks are increasingly targeting online users. Learn how to safeguard your information...',
+  },
+  {
+    id: 13,
+    image: '/path/to/image13.jpg',
+    category: 'Cybersecurity',
+    title: 'Best Practices for Securing Your Online Accounts',
+    author: 'capxrecovery / April 18, 2024',
+    description: 'To ensure your online accounts are secure, follow these simple steps to strengthen your password...',
+  },
+  {
+    id: 14,
+    image: '/path/to/image14.jpg',
+    category: 'Investment Fraud',
+    title: 'Common Red Flags of Investment Fraud',
+    author: 'capxrecovery / April 5, 2024',
+    description: 'Investment fraud often comes with warning signs. Learn how to spot red flags early...',
+  },
+  {
+    id: 15,
+    image: '/path/to/image15.jpg',
+    category: 'Ponzi',
+    title: 'The History of Ponzi Schemes and Famous Scams',
+    author: 'capxrecovery / March 22, 2024',
+    description: 'Ponzi schemes have been around for decades. Discover some of the most notorious Ponzi scams in history...',
+  },
+  {
+    id: 16,
+    image: '/path/to/image16.jpg',
+    category: 'Social Media',
+    title: 'How Social Media Influencers Are Being Targeted by Scammers',
+    author: 'capxrecovery / March 8, 2024',
+    description: 'Social media influencers are being targeted by scammers due to their large following and reach...',
+  },
+  {
+    id: 17,
+    image: '/path/to/image17.jpg',
+    category: 'Internet Fraud',
+    title: 'Top 10 Internet Scams To Watch Out For in 2024',
+    author: 'capxrecovery / February 28, 2024',
+    description: 'Internet scams are becoming increasingly prevalent. Learn about the top 10 internet scams...',
+  },
+  {
+    id: 18,
+    image: '/path/to/image18.jpg',
+    category: 'Cybersecurity',
+    title: 'How To Strengthen Your Cybersecurity in 2024',
+    author: 'capxrecovery / February 14, 2024',
+    description: 'With cyber threats on the rise, it is important to strengthen your cybersecurity...',
+  },
+  {
+    id: 19,
+    image: '/path/to/image19.jpg',
+    category: 'Investment Fraud',
+    title: 'Recovering from Investment Scams: Steps You Should Take',
+    author: 'capxrecovery / January 30, 2024',
+    description: 'If you have fallen victim to an investment scam, there are steps you can take to recover...',
+  },
+  {
+    id: 20,
+    image: '/path/to/image20.jpg',
+    category: 'Ponzi',
+    title: 'Ponzi Schemes: What You Need to Know in 2024',
+    author: 'capxrecovery / January 15, 2024',
+    description: 'Ponzi schemes continue to be a major financial risk in 2024. Learn how to spot and avoid them...',
+  },
+];

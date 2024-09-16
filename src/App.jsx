@@ -14,6 +14,7 @@ import RomanceScam from './services/RomanceScam'
 import TaxFraud from './services/TaxFraud'
 import InternetScam from './services/InternetScam'
 import SocialMediaScam from './services/SocialMediaScam'
+import Blog2 from './services/Blog2'
 
 
 const App = () => {
@@ -24,7 +25,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
-      <Route path='/blog' element={<Blog/>}/>
+      <Route path='/blog' element={<Blog2/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/services/cryptocurrency-scam-recovery' element={<Cryptocurrency/>}/>
       <Route path='/services/forex-scam' element={<ForexScam/>}/>
