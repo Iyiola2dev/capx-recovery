@@ -7,15 +7,15 @@ const Footer = () => {
       <footer className="bg-green-900 text-white py-10">
         <div className="container mx-auto px-6">
           {/* Upper Section */}
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-5">
             {/* Left Section */}
             <div className="mb-8 md:mb-0">
               <img
-                src="/path-to-your-image/logo-placeholder.png"
+                src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726142267/Bitcoin/capx-logo-180x55-1_edgd0i.png"
                 alt="Capx Recovery Logo"
                 className="w-32 mb-4"
               />
-              <p className="max-w-xs">
+              <p className="max-w-xs  ">
                 We’re a Trusted and Reliable Fund Recovery Company, and we’re
                 mastered at the core of what we do, “scam recovery.” A gigantic
                 field that includes recovery from frozen or disabled crypto
@@ -94,7 +94,7 @@ const Footer = () => {
           </div>
 
           {/* Footer Bottom */}
-          <div className="border-t border-white-300 pt-6 text-center md:text-left">
+          <div className="border-t border-white-300 pt-6 text-center md:text-left flex justify-center items-center">
             <p>© 2024 Capx Recovery • All Rights Reserved</p>
           </div>
         </div>
