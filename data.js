@@ -616,6 +616,100 @@ Our Forex recovery services specialist can advise and help you in your journey t
 ];
 
 
+export const nftCardData = [
+  {
+    title: "Consistent or High Returns",
+    description:
+      "If a scheme assures abnormally huge returns at a consistent rate then that’s a scam indicator. The market is anything but predictable, hence no expert or financial entity can measure or promise profits. Check brokers’ registration and disciplinary history using FINRA’s BrokerCheck database.",
+  },
+  {
+    title: "Illegitimate Operations",
+    description:
+      "Keep an eye out for unregistered investments, since SEC registration enhances transparency and management of funds. Likewise, if the scheme sells out products/services, confirm whether the seller/service provider is licensed for the same. Note that lack of transparency is the biggest red flag.",
+  },
+  {
+    title: "Complex Strategies",
+    description: "A community that functions on secretive strategies or complexities are best avoided. These schemes press on people’s FOMO (fear of missing out) to get them involved in them. Soon enough people start funding such hyped fake courses, strategies, or investments.",
+  },
+  {
+    title: "Lies Instead of Payouts",
+    description: "After investing into a scheme, if you find yourself facing inconsistencies, delays in payouts, or ignorance, you may have fallen victim to a Ponzi fraud. With every Ponzi affair reaching its saturation point, there are some investors who are likely to bear with the losses.",
+  },
+];
+
+export const ponziForScam = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446833/Bitcoin/Recovery-Consultation-300x300_i5i2cb.webp",
+    title: "Wire Fraud",
+    text: "First initiated by financier Bernie Madoff, this was a Ponzi scheme that grew massive & stole billions from investors. Similar to mail fraud, it differs in its mode of communication by relying on electronic modes like social media, emails, phone calls, etc. The core of this particular fraud is wire transferring money from account to account, to go unnoticed. Since wire fraud is a broader concept, it covers Ponzi schemes that unfold through phishing. The motive of the schemers vary from attaining finances to financial or personal data. It implies identity theft is yet another risk that one stands exposed to, when dealing with this type of fraud. However, just like any other Ponzi scheme, it ends with the scheme running its course.",
+  },
+
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Forex-Scam-Investigation-300x300_esk1st.webp",
+    title: "Mail Fraud",
+    text: "It involves two elements: a scheme to defraud and the mailing of an item to execute the scheme. Mailing money, contracts, or fraudulent letters can meet the definition. Those who mail such items or knowingly participate in the scheme are chargeable under the law. Mail fraud often occurs in white-collar crime cases, such as financial or Ponzi frauds, credit card fraud, or insurance fraud. It may involve breach of trust or deceitful processes, leading to loss of money, property, or other valuables. The thing to focus here is the dishonest means that the schemers use to meet their goal. Moreover, the target audience for this fraud are the unemployed, retired, or wealthy class. By creating real-life scenarios, schemers lay a believable trap for victims.",
+  },
+
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Recovery-300x300_gztjok.webp",
+    title: "Investment Advisory Fraud",
+    text: "Also known as financial advisor fraud, an alleged investment scheme carried out by a licensed financial advisor. It refers to the illegal practice of influencing financial decisions of investors based on false information. By building a community of investors and traders, the illegitimate operator encourages financing the scheme. At times, the schemers may even claim to have a strategy that has proven credible for many. However, the entire operation is based on a bunch of lies and deceits. There are no actual strategies that can make any huge difference or alter the market risks. Our investigative team recommends disregarding any testimonials or ads that promote a proven method of succeeding in the investment market.",
+  },
+
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Fund-Tracing-300x300_cahhkf.webp",
+    title: "Money Laundering",
+    text: "Money laundering is the process of disguising the proceeds of illegal activity, often involving organized crime, terrorist activities, and drug transactions. But in this case, money laundering Ponzi schemes refer to practices that keep these funds flowing in the system. By taking black money from investors, the operators keep the funds rotating. The introduction of tax-free money and lucrative returns make the participants eager to input all that they've got. The word-of-mouth expands its reach, giving the scheme more credit than it deserves. It's highly suggested that you steer clear of investment schemes that promise huge gains, tax-free processing, and little to zero risks.",
+  },
+];
+
+export const ponziFaqData = [
+  {
+    question: "Are Ponzi schemes and pyramid schemes the same?",
+    title: `When you realize that you have been a victim of a Forex scam, contact the forex broker and demand for a valid answer. If they fail to provide you with any convincing reply then follow these steps.
+Contact the authorities at the Securities and Exchange Commission, the Commodity Futures Trading Commission, the Internet Crime Complaint Center, the local Law Enforcement Agency, the Federal Law Enforcement Agency, the District Attorney, and the State General Attorney, and file a complaint with them.
+You also need to contact your banks and credit bureau to stop further restricting the flow of the money from your account into the scammers account. Ask for a free copy from the credit bureau and look for unauthorized transactions or bank accounts. Report them to the relevant authorities, and request an account freeze until the investigation is completed.
+Get in touch with the wire transfer authorities and report the scam to them.
+You also have the option of contacting our Forex recovery services specialist, for a free consultation and get realistic advice and approach in the recovery of your stolen financial funds.`,
+  },
+  {
+    question: "How do I safeguard myself against Ponzi fraud?",
+    title:
+      "Con artists are smart, and they will work on your emotions to get what they want. They will entice their victims by offering fake deals:",
+    answer1: "1. Once-in-a-lifetime opportunity",
+    answer2: "2. Exaggerated and unbelievable returns on investments",
+    answer3: "3. Get quick schemes",
+    answer4: "4. Low risk and high returns on investments.",
+    answer5:
+      "5. Their firm is so expert at picking cryptos at the perfect time that they rarely have any losses.",
+    answer6: "6. Ponzi schemes are common in crypto scams.",
+  },
+  
+  {
+    question: "What are the red flags of a Ponzi scam?",
+    title:
+      `The chances of recovering financial assets from a Forex scam generally depends on how fast the scam was discovered and how much money was involved. Scammers are known to launder their stolen money from one bank account to another.`,
+  },
+  {
+    question: "How long does a Ponzi scheme investigation take?",
+    title: `The Forex brokers and brokerage firms offer their services based on mutual trust and honesty. However, if the victim of a forex scam manages to prove that the Forex broker or brokerage firm has swindled money through fake promises and statements, then a case against the perpetrator can be made.
+Our Forex recovery services specialist can advise and help you in your journey to recover your stolen financial funds from the scam.`,
+  },
+  {
+    question: "How do I report a Ponzi scam?",
+    title: `The Forex brokers and brokerage firms offer their services based on mutual trust and honesty. However, if the victim of a forex scam manages to prove that the Forex broker or brokerage firm has swindled money through fake promises and statements, then a case against the perpetrator can be made.
+Our Forex recovery services specialist can advise and help you in your journey to recover your stolen financial funds from the scam.`,
+  },
+];
+
 
 // Blog data
 export const blogCardData = [
