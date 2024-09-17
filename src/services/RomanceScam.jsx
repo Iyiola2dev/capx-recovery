@@ -13,9 +13,9 @@ const RomanceScam = () => {
     <div className="bg-green-300/35">
     <div className="bg-green-900/35 flex flex-col md:flex-row justify-center md:justify-between items-center px-3 pt-10 md:px-6 border-b-2">
       <div className="flex-1 flex flex-col gap-4 justify-center items-center md:justify-start md:items-start mx-auto">
-        <h1 className="text-white text-4xl font-bold flex flex-col gap-2 lg:gap-5 text-center   md:text-left  lg:text-[4rem] lg:leading-[4rem]">
-        Online love turned  
-          <span className="text-[#ffdb8a]">into a fraudulent </span> nightmare?
+      <h1 className="text-[#ffdb8a] text-4xl font-bold flex flex-col gap-2 lg:gap-5 text-center   md:text-left  lg:text-[4rem] lg:leading-[4rem]">
+        Online love turned  into a fraudulent nightmare?
+         
         </h1>
         <p className="text-center md:text-left text-xl text-white font-semibold  ">
         Focus on your heart as we focus on recovering your lost funds.

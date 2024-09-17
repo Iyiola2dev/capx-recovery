@@ -1,4 +1,3 @@
-import React from "react";
 import { nftCardData } from "../../../data";
 
 const PonziCard = () => {
@@ -13,7 +12,7 @@ const PonziCard = () => {
           {nftCardData.map((item, index) => (
             <div
               key={index}
-              className="bg-blue-900 rounded-lg shadow-lg p-6 m-4 w-[25rem] h-60 flex flex-col justify-center items-center"
+              className="bg-blue-900 rounded-lg text-xs shadow-lg p-6 m-4 w-[25rem] h-80 flex flex-col justify-center items-center"
             >
               <h2 className="text-xl text-[#ffdb8a] font-bold mb-2">
                 {item.title}

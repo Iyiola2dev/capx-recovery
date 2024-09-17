@@ -710,6 +710,60 @@ Our Forex recovery services specialist can advise and help you in your journey t
   },
 ];
 
+export const socialMediaScam = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446833/Bitcoin/Recovery-Consultation-300x300_i5i2cb.webp",
+    title: "Facebook scam",
+    text: `Facebook is quite popular with con artists for social media romance scams. By impersonating someone they entice their potential victims. Besides romance scams, they also engage in ripping off their victims in a number of ways.
+For instance, charity and donation organizations that will collect money only to fill their coffers. Then come the fake friends who keep on requesting emergency aid. Moreover, the ones selling bogus or substandard products in the Facebook Marketplace. These deceptive agents may also collect sensitive data from potential victims using fake surveys.`,
+  },
+
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Forex-Scam-Investigation-300x300_esk1st.webp",
+    title: "Instagram Scam",
+    text: "Con artists are known to frequently make use of Instagram to attract their potential victims and jeopardize their financial well-being. They impersonate a seasoned retail investor, providing fake investment opportunities. Some frequently indulge in rug-pull and pump-and-dump schemes, leaving their victims under financial burden. The others promote fake crypto airdrops under the guise of a celebrity. Phishing scams provide a link to a malicious app, and upon downloading it, scammers have complete control over the victim’s smartphone, demanding ransom in terms of fiat currencies or cryptos.",
+  },
+
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Recovery-300x300_gztjok.webp",
+    title: "Whats App",
+    text: "These con artists are experts at spreading messages linked to pyramid schemes on WhatsApp. By forwarding the messages and reaching out to a wider audience, these schemers lock up a gigantic amount of money. They are also known to impersonate friends or family, texting their contacts to urgently demand monetary help. Furthermore, duplicated government authorities demand money for fake tax evasion, and may threaten victims with a heavy fine. Likewise, employment scam forwards schedule unreal interviews and ask the targeted person to fill forms with their sensitive details. These details may then be used for hacking or other illicit activities.",
+  },
+
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/dtlejpoxq/image/upload/v1726446832/Bitcoin/Fund-Tracing-300x300_cahhkf.webp",
+    title: "Phishing Scams",
+    text: "You must exercise caution when you receive a message with a link on your social media platform, especially on Twitter now-a-days. While these links direct you to a site, they can also download malicious apps that can hold the victim’s electronic device at ransom, collect sensitive data saved on the electronic device from scammers, or both. You may be tempted to click on the link, due to the excitement that the scammer may create around it. They may even make up fake stories about enticing offers and more to attain that click. These kinds of scams place the victims at a high risk to identity theft or hacking activities, which may later lead to financial losses, for you or your contacts.",
+  },
+];
+export const socialScamData = [
+  {
+    title: "Free Scam Assessment",
+    description:
+      "Respond quickly and report a case, initiating an assessment that verifies your circumstances. On completing the authentication, you receive a confirmation on whether you’ve been scammed or not.  Moreover, you are guided on the opportunity for recovery.",
+  },
+  {
+    title: "Sharing Valuable Information",
+    description:
+      "We take up fighting on your behalf and expect you to share all the details relevant and crucial to the case. Right from the first text or call you received from the scammer to the transaction made to them. Based on how much data we’ve got to back your case, it may alter or add up to your chances of recovery.",
+  },
+  {
+    title: "Representing Your Case",
+    description: "Whether it’s in the court of law, in negotiation with financial bodies, or in approaching the scammer; we represent your case with diligence. From investigative powers to lawful practices, we fight for you, with an intent to win. Our track record of successes also convey our ability to recover efficiently.",
+  },
+  {
+    title: "Fund Tracing & Recovery",
+    description: "The final step is spotting the whereabouts of your scammed funds. Our financial analysts, forensic experts, and technical developments play a primary role through this. It marks a victorious end to the long and tiresome procedure with a maximum fund retrieval.",
+  },
+];
 
 // Blog data
 export const blogCardData = [
