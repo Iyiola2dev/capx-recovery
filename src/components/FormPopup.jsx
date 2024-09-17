@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { IoMdCloseCircle } from "react-icons/io";
 
-const FormPopup = () => {
+const FormPopup = ({close}) => {
   const [countries, setCountries] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState("");
@@ -31,10 +32,10 @@ const FormPopup = () => {
   };
 
   return (
-    <div className="flex flex-col ">
-      <form className="flex flex-col fixed max-w-md mx-auto border bg-green-900 border-gray-500 p-4 rounded-lg shadow-md">
-        <div className="flex justify-end bg-red-400">
-          <p className="text-3xl">x</p>
+    <div className="hidden lg:flex flex-col fixed h-screen w-screen top-0 left-0 bg-black/80 justify-center items-center z-[60]">
+      <form className="flex flex-col  max-w-md mx-auto border bg-green-900 border-gray-500 p-4 rounded-lg shadow-md">
+        <div   onClick={close} className="flex justify-end">
+          <IoMdCloseCircle className="text-[#ffdb8a] text-3xl"/>
         </div>
         <h2 className="text-2xl font-bold text-[#ffdb8a]">
           Reclaim Your Scammed Money
@@ -147,9 +148,9 @@ const FormPopup = () => {
         </div>
         <button
           type="submit"
-          className="bg-[#ffdb8a] text-black py-2 px-4 rounded hover:bg-[#ffdb8a]/30"
+          className="bg-[#ffdb8a] text-green-900 py-2 px-4 rounded hover:bg-[#ffdb8a]/30 font-bold"
         >
-          Get Free Case Evaluation
+         File Your Complaint
         </button>
       </form>
     </div>

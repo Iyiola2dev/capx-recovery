@@ -20,14 +20,21 @@ import { use } from "react";
 import FormPopup from "./components/FormPopup";
 
 const App = () => {
-  const [show, setShow] = useState(false);
+  const [closeModal, setCloseModal] = useState(true);
+  const onclick = () => {
+    setCloseModal(true);
+  };
   useEffect(() => {
-    setShow(true);
+    setTimeout(() => {
+      setCloseModal(false);
+    }, 3000);
   }, []);
   return (
     <div className="bg-bitcoin2 bg-cover bg-transparent ">
       <Nav />
-      {/* {show && <FormPopup />} */}
+      {/* {!closeModal && <PopUpModal close={onclick} />} */}
+
+      {!closeModal &&  <FormPopup close={onclick}/>}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
