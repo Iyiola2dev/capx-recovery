@@ -1,13 +1,12 @@
 import React from 'react'
 import OurServices from "./servicesComponent/OurServices";
-import ForexScamData from "./servicesComponent/ForexScamData";
-import ForexCard from "./servicesComponent/ForexCard";
+
 import ForexOpCard from "./servicesComponent/ForexOpCard";
 import ForexFaqData from "./servicesComponent/ForexFaqData";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import SocialScamData from './servicesComponent/SocialScamData';
-import SocialMediaCard from './servicesComponent/SocialMediaCard';
+
 
 const SocialMediaScam = () => {
   return (

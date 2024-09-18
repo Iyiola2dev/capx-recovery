@@ -15,7 +15,7 @@ import TaxFraud from "./services/TaxFraud";
 import InternetScam from "./services/InternetScam";
 import SocialMediaScam from "./services/SocialMediaScam";
 import Blog2 from "./services/Blog2";
-import { use } from "react";
+
 
 import FormPopup from "./components/FormPopup";
 import BlogStory from "./pages/BlogStory";
@@ -28,7 +28,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setCloseModal(false);
-    }, 3000);
+    }, 2000);
   }, []);
   return (
     <div className="bg-bitcoin2 bg-cover bg-transparent ">

@@ -12,25 +12,19 @@ const RomanceScam = () => {
   return (
     <div className="bg-green-300/35">
     <div className="bg-green-900/35 flex flex-col md:flex-row justify-center md:justify-between items-center px-3 pt-10 md:px-6 border-b-2">
-      <div className="flex-1 flex flex-col gap-4 justify-center items-center md:justify-start md:items-start mx-auto">
-      <h1 className="text-[#ffdb8a] text-4xl font-bold flex flex-col gap-2 lg:gap-5 text-center   md:text-left  lg:text-[4rem] lg:leading-[4rem]">
+      <div className="flex-1 flex flex-col gap-4 justify-center items-center  mx-auto">
+      <h1 className="text-[#ffdb8a] text-4xl font-bold flex flex-col gap-2 lg:gap-5 text-center     lg:text-[4rem] lg:leading-[4rem]">
         Online love turned  into a fraudulent nightmare?
          
         </h1>
-        <p className="text-center md:text-left text-xl text-white font-semibold  ">
+        <p className="text-center  text-xl text-white font-semibold  ">
         Focus on your heart as we focus on recovering your lost funds.
         </p>
         <button className="primary-btn bg-[#ffdb8a]/35 mb-3 p-4 hover:bg-green-300/25  text-white  flex items-center gap-2 rounded-2xl">
          Report Your Case
         </button>
       </div>
-      <div className="flex-1 hidden md:flex xl:justify-end">
-        <img
-          className="rounded-lg"
-          src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1726419627/Bitcoin/scam_evhxrw.jpg"
-          alt=""
-        />
-      </div>
+     
     </div>
     {/* second section of this page */}
     <div className="flex flex-col justify-center items-center gap-7 bg-green-900/35 py-8 px-3">

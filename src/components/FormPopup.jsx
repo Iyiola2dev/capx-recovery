@@ -75,7 +75,7 @@ const FormPopup = ({ close }) => {
   };
 
   return (
-    <div className="hidden lg:flex flex-col fixed h-screen w-screen top-0 left-0 bg-black/80 justify-center items-center z-[60]">
+    <div className="hidden lg:flex flex-col fixed py-[6rem] h-screen w-screen top-0 left-0 bg-black/80 justify-center items-center z-[60]">
       <form className="flex flex-col max-w-md mx-auto border bg-green-900 border-gray-500 p-4 rounded-lg shadow-md">
         <div onClick={close} className="flex justify-end">
           <IoMdCloseCircle className="text-[#ffdb8a] text-3xl" />
@@ -188,7 +188,7 @@ const FormPopup = ({ close }) => {
           {/* Investment Amount Dropdown */}
           <div className="flex flex-col gap-1 relative">
             <label
-              className="text-white font-semibold text-xl"
+              className="text-white font-semibold text-sm"
               htmlFor="amount"
             >
               The amount you invested
