@@ -9,7 +9,7 @@ const MiniBlog = () => {
         {miniBlog.map((blog) => (
           <div
             key={blog.id}
-            className="flex justify-center items-center bg-green-900 p-4 gap-4 text-white"
+            className="flex justify-center items-center bg-green-900 p-4 gap-4 text-white rounded"
           >
             <div className="flex flex-col justify-center gap-4">
               <img
