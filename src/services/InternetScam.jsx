@@ -12,12 +12,12 @@ const InternetScam = () => {
   return (
     <div className="bg-green-300/35">
     <div className="bg-green-900/35 flex flex-col md:flex-row justify-center md:justify-between items-center px-3 pt-10 md:px-6 border-b-2">
-      <div className="flex-1 flex flex-col gap-4 justify-center items-center md:justify-start md:items-start mx-auto">
-        <h1 className="text-[#ffdb8a] text-4xl font-bold flex flex-col gap-2 lg:gap-5 text-center   md:text-left  lg:text-[4rem] lg:leading-[4rem]">
+      <div className="flex-1 flex flex-col gap-4 justify-center items-center  mx-auto">
+        <h1 className="text-[#ffdb8a] text-4xl font-bold flex flex-col gap-2 lg:gap-5 text-center    lg:text-[4rem] lg:leading-[4rem]">
         INTERNET SCAM INVESTIGATIONS
          
         </h1>
-        <p className="text-center md:text-left text-xl text-white font-semibold  ">
+        <p className="text-center text-xl text-white font-semibold  ">
         Defrauded by an online scammer? Let's win your money back via recovery!
         </p>
         <button className="primary-btn bg-[#ffdb8a]/35 mb-3 p-4 hover:bg-green-300/25  text-white  flex items-center gap-2 rounded-2xl">
