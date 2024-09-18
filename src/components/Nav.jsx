@@ -50,6 +50,7 @@ const Nav = () => {
             </li>
             <li
               className="relative p-3 cursor-pointer transition"
+              // onMouseEnter={handleServicesClick}
               onClick={handleServicesClick}
             >
               <span className="hover:border-b-2 flex items-center">
