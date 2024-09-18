@@ -10,7 +10,7 @@ const Contact = () => {
         <h1 className="text-xl text-[#ffdb8a] font-bold">CONTACT US</h1>
       </div>
       {/* The second section of the page */}
-      <div className="flex flex-col md:flex-row justify-center items-center px-5 py-10  gap-10">
+      <div className="flex flex-col md:flex-row justify-center items-center px-5 md:py-10   gap-10 z-[10]">
       <div className="flex-1 flex flex-col ">
         <div className="flex flex-col justify-center items-center md:items-start md:justify-start">
           <p className="text-base text-white font-bold text-center md:text-left">Address:- 5551, Shaw RD, Apt no 16/188, Jackson, MS – 39209</p>

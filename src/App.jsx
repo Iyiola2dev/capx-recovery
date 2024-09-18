@@ -18,6 +18,7 @@ import Blog2 from "./services/Blog2";
 import { use } from "react";
 
 import FormPopup from "./components/FormPopup";
+import BlogStory from "./pages/BlogStory";
 
 const App = () => {
   const [closeModal, setCloseModal] = useState(true);
@@ -57,6 +58,7 @@ const App = () => {
           path="/services/social-media-scam"
           element={<SocialMediaScam />}
         />
+        <Route path="/blogStory" element={<BlogStory/>}/>
       </Routes>
     </div>
   );

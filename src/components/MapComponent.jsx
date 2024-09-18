@@ -6,7 +6,7 @@ const MapComponent = () => {
 
   return (
     <div className="flex justify-center items-center bg-gray-100 h-full w-full">
-      <div className="w-full max-w-[500px] h-[400px] p-4 rounded-lg shadow-md">
+      <div className="w-full max-w-[500px] h-[400px] p-4 rounded-lg shadow-md ">
         <MapContainer
           center={position}
           zoom={13}
