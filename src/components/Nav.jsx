@@ -110,7 +110,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-
+{/* For small sreen */}
         <span
           className="z-30 md:hidden text-white text-2xl"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -121,131 +121,144 @@ const Nav = () => {
             <RxHamburgerMenu />
           )}
         </span>
-
         <div
-          className={`absolute xl:hidden top-0 w-[70%] h-screen right-0 flex flex-col justify-center items-center bg-gray-500/20 shadow-lg backdrop-blur-lg text-white gap-2 font-semibold text-lg transform transition-transform ${
-            isMenuOpen ? "flex" : "hidden"
-          }`}
-          style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
+  className={`absolute xl:hidden top-0 w-[70%] py-[10rem] right-0 flex flex-col justify-center items-center bg-gray-500/20 shadow-lg backdrop-blur-lg text-white gap-2 font-semibold text-lg transform transition-transform ${
+    isMenuOpen ? "flex" : "hidden"
+  }`}
+  style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
+>
+  {/* Home Link */}
+  <div
+    onClick={() => {
+      closeAllDropdowns();
+      setIsMenuOpen(false);
+    }}
+    className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
+  >
+    <Link to="/">Home</Link>
+  </div>
+
+  {/* About Link */}
+  <div
+    onClick={() => {
+      closeAllDropdowns();
+      setIsMenuOpen(false);
+    }}
+    className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
+  >
+    <Link to="/about">About</Link>
+  </div>
+
+  {/* Our Services Dropdown */}
+  <div className="w-full">
+    <div
+      onClick={() => setIsServicesOpen(!isServicesOpen)}
+      className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
+    >
+      <span>Our Services</span>
+    </div>
+    {isServicesOpen && (
+      <div className="w-full bg-gray-800 text-white border border-gray-700 shadow-lg">
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/cryptocurrency-scam-recovery"
+          className="block px-4 py-2 hover:bg-gray-600"
         >
-          <div
-            onClick={() => {
-              closeAllDropdowns();
-              setIsMenuOpen(false);
-            }}
-            className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
-          >
-            <Link to="/">Home</Link>
-          </div>
-          <div
-            onClick={() => {
-              closeAllDropdowns();
-              setIsMenuOpen(false);
-            }}
-            className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
-          >
-            <Link to="/about">About</Link>
-          </div>
-          <div
-            onClick={() => setIsServicesOpen(!isServicesOpen)}
-            className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer relative"
-          >
-            <span>Our Services</span>
-            {isServicesOpen && (
-              <div className="absolute top-full left-0 w-full bg-gray-800 text-white border border-gray-700 shadow-lg">
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/cryptocurrency-scam-recovery"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Cryptocurrency Scam Recovery
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/forex-scam"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Forex Scam
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/nft-scam"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  NFT Scam
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/ponzi-schemes"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Ponzi Schemes
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/romance-scam"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Romance Scam
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/tax-fraud-investigation"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Tax Fraud Investigation
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/internet-scam"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Internet Scam
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/services/social-media-scam"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Social Media Scam
-                </Link>
-              </div>
-            )}
-          </div>
-          <div
-            onClick={() => setIsBlogOpen(!isBlogOpen)}
-            className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer relative"
-          >
-            <span>Blog</span>
-            {isBlogOpen && (
-              <div className="absolute top-full left-0 w-full bg-gray-800 text-white border border-gray-700 shadow-lg">
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/blog"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Blog
-                </Link>
-                <Link
-                  onClick={closeAllDropdowns}
-                  to="/blogStory"
-                  className="block px-4 py-2 hover:bg-gray-600"
-                >
-                  Blog Story
-                </Link>
-              </div>
-            )}
-          </div>
-          <div
-            onClick={() => {
-              closeAllDropdowns();
-              setIsMenuOpen(false);
-            }}
-            className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
-          >
-            <Link to="/contact">Contact</Link>
-          </div>
-        </div>
+          Cryptocurrency Scam Recovery
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/forex-scam"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Forex Scam
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/nft-scam"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          NFT Scam
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/ponzi-schemes"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Ponzi Schemes
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/romance-scam"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Romance Scam
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/tax-fraud-investigation"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Tax Fraud Investigation
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/internet-scam"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Internet Scam
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/services/social-media-scam"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Social Media Scam
+        </Link>
+      </div>
+    )}
+  </div>
+
+  {/* Blog Dropdown */}
+  <div className="w-full">
+    <div
+      onClick={() => setIsBlogOpen(!isBlogOpen)}
+      className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
+    >
+      <span>Blog</span>
+    </div>
+    {isBlogOpen && (
+      <div className="w-full bg-gray-800 text-white border border-gray-700 shadow-lg">
+        <Link
+          onClick={closeAllDropdowns}
+          to="/blog"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Blog
+        </Link>
+        <Link
+          onClick={closeAllDropdowns}
+          to="/blogStory"
+          className="block px-4 py-2 hover:bg-gray-600"
+        >
+          Blog Story
+        </Link>
+      </div>
+    )}
+  </div>
+
+  {/* Contact Link */}
+  <div
+    onClick={() => {
+      closeAllDropdowns();
+      setIsMenuOpen(false);
+    }}
+    className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer"
+  >
+    <Link to="/contact">Contact</Link>
+  </div>
+</div>
+
       </div>
     </nav>
   );
